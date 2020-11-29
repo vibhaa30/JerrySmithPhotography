@@ -3,61 +3,56 @@
   padding: 0px;
 }
 
- div {
- overflow: hidden;
+#topbar {
  background-color: #000;
  text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
 }
 
- a {
- float: left;
- color: #FFF;
- /* padding: 9px 9px; */
- text-decoration: none;
- font-size: 17px;
- text-align: center;
- }
-
- h1 {
+ #topbar h1 {
    width: 1250px;
    text-align: center;
    font-size: 45px;
+   color: #FFF;
  }
 
-#sidebar {
-  position: fixed;
-  width: 200px;
-  height: 100%;
-  background: #151719
-  left: -200px;
-  transition: all 370ms linear;
-}
+ #sidebar {
+   padding: 20px 0px 0px 5px;
+   position: fixed;
+   width: 200px;
+   height: 100%;
+   background: #000;
+   left: -200px;
+   transition: all 370ms linear;
+ }
 
-#sidebar.active {
-  left: 0px
-}
+ #sidebar.active {
+   left: 0px;
+ }
 
-#sidebar ul li {
-  color: rgb(230,230,230);
-  padding: 15px 10px;
-}
+ #sidebar ul li {
+   color: #FFF;
+   padding: 15px 10px;
+   list-style-type: none;
+ }
 
-#sidebar ul li:hover{
-  padding-left: 25px;
-  transition: all 10ms linear;
-  color: #0071bc;
-}
+ #sidebar ul li:hover{
+   padding-left: 25px;
+   transition: all 10ms linear;
+   color: #0071bc;
+ }
 
-#sidebar .three-lines {
-  position: absolute;
-  left: 230px;
-  top: 20px
-}
+ #sidebar .three-lines {
+   position: absolute;
+   left: 230px;
+   top: 20px
+  }
 
-#sidebar .three-lines span {
-  display: block;
-  width: 30px;
-  height: 5px;
-  background: #FFF;
-  margin: 5px 0px;
-}
+ #sidebar .three-lines span {
+   display: block;
+   width: 30px;
+   height: 5px;
+   background: #FFF;
+   margin: 5px 0px;
+ }
