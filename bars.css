@@ -56,3 +56,28 @@
    background: #FFF;
    margin: 5px 0px;
  }
+
+#footerbar footer{
+  position: relative;
+  min-height: 100px;
+  background-color: #000;
+  padding-bottom: 2.5px;
+  text-align: center;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow: scroll;
+}
+
+#footerbar ul li {
+  color: #FFF;
+  padding: 15px;
+  text-align: center;
+  display: inline;
+}
+
+p {
+  color: #000;
+  font-size: 50px;
+}
