@@ -79,21 +79,69 @@
   display: inline;
 }
 
-.collection_box {
+.BLM-collection_box {
  padding-left: 2%;
  padding-top: 3%;
+ background-image: url('Images/homepage/BLM_Collection.png');
+ background-repeat: no-repeat;
+ background-position: center;
 }
 
-.collection_box h2{
+.BLM-collection_box h2{
   margin:auto;
-  width: 950px;
-  height: 150px;
-  background-color: #FF4500;
   text-align: center;
   transition: transform .2s;
   padding: 50px;
 }
-.collection_box:hover {
+
+.BLM-collection_box .innerBox {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.BLM-collection_box .hover-text a {
+  background-color: #FFF;
+  color: #000;
+  font-size: 33px;
+  padding: 33px 66px;
+  text-align: center;
+}
+
+.BLM-collection_box:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+.BLM-collection_box .hover-text a {
+  background-color: #FFF;
+  color: #000;
+  font-size: 33px;
+  padding: 33px 66px;
+  text-align: center;
+}
+
+.Women-collection_box {
+ padding-left: 2%;
+ padding-top: 3%;
+}
+
+.Women-collection_box h2{
+  margin:auto;
+  width: 950px;
+  height: 150px;
+  text-align: center;
+  transition: transform .2s;
+  padding: 50px;
+}
+.Women-collection_box:hover {
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
   transform: scale(1.15);
