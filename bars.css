@@ -78,3 +78,7 @@
   text-align: center;
   display: inline;
 }
+.photo-box {
+  height: 100px;
+  width: 500px;
+  background-color: #000;
