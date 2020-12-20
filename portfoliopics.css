@@ -1,0 +1,75 @@
+.photo-box {
+  /*position: absolute;
+  top: 150px;
+  left: 50px;*/
+  height: 280px;
+  width: 550px;
+  background-color: #555;
+}
+  .inside-box {
+    /*position: absolute;
+    top: 20px;
+    left: 20px;*/
+    height: 210px;
+    width: 180px;
+    background-color: #FFF;
+  }
+
+  #first {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+  }
+
+  #inside-first {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  #second {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+  }
+
+  #inside-second {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  #third {
+    position: absolute;
+    top: 450px;
+    left: 50px;
+  }
+
+  #inside-third {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  #fourth {
+    position: absolute;
+    top: 450px;
+    right: 50px;
+  }
+
+  #inside-fourth {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  #fifth {
+    position: absolute;
+    top: 750px;
+    left: 50px;
+  }
+
+  #inside-fifth {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
