@@ -1,3 +1,9 @@
+#top-title h2{
+  padding: 20px;
+  text-align:center;
+  font-size: 30px;
+
+}
 .photo-box {
   /*position: absolute;
   top: 150px;
