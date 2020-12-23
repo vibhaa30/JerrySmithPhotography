@@ -1,5 +1,43 @@
 
-  #topbar {
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+#topbar {
+ background-color: #000;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+ #topbar h1 {
+   width: 1250px;
+   text-align: center;
+   font-size: 45px;
+   color: #FFF;
+ }
+
+
+ #sidebar {
+   padding: 20px 0px 0px 5px;
+   position: fixed;
+   width: 200px;
+   height: 100%;
+   background: #000;
+   left: -200px;
+   transition: all 370ms linear;
+ }
+
+ #sidebar.active {
+   left: 0px;
+ }
+
+#topbar {
  background-color: #000;
  text-align: center;
  padding-top: 10px;
@@ -80,4 +118,56 @@
   color: #FFF;
   text-align: right;
   padding: 2% 2%;
+}
+
+#form-container {
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-right: 50%;
+  background-color: #cfcad9;
+  padding: 1% 1% 2% 1%;
+}
+
+#form-container h2 {
+  text-align: center;
+
+}
+
+
+#email {
+  margin-top: 2%;
+  margin-left: 2%;
+  text-align: left;
+  font-size: 13px;
+  padding: 5px 15% 5px 1%;
+  border-radius: 7px;
+
+}
+
+#password {
+  margin-top: 1%;
+  margin-left: 2%;
+  text-align: left;
+  font-size: 13px;
+  padding: 5px 15% 5px 1%;
+  border-radius: 7px;
+}
+
+#signUp {
+  margin-top: 2%;
+  margin-left: 37%;
+  padding: .5% 2% .5% 2%;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+#to-sign-in {
+  background-color: #FFF;
+  font-size: 20px;
+  margin-top: 3%;
+  margin-right: 80%;
+  text-align: center;
+  padding: .5% 2% .5% 2%;
+  border-radius: 10px;
+
 }
