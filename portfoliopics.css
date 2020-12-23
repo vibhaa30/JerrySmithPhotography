@@ -8,23 +8,23 @@
   /*position: absolute;
   top: 150px;
   left: 50px;*/
-  margin-left: 50px;
+  margin-left: 5px;
   height: 280px;
-  width: 550px;
+  width: 600px;
   background-color: #555;
 }
   .inside-box {
     /*position: absolute;
     top: 20px;
     left: 20px;*/
-    height: 220px;
-    width: 180px;
+    height: 240px;
+    width: 200px;
     background-color: #FFF;
   }
 
   #first {
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 50px;
   }
 
@@ -36,7 +36,7 @@
 
   #second {
     position: absolute;
-    top: 100px;
+    top: 150px;
     right: 50px;
   }
 
@@ -48,7 +48,7 @@
 
   #third {
     position: absolute;
-    top: 410px;
+    top: 470px;
     left: 50px;
   }
 
@@ -60,7 +60,7 @@
 
   #fourth {
     position: absolute;
-    top: 410px;
+    top: 470px;
     right: 50px;
   }
 
@@ -71,7 +71,7 @@
   }
   #fifth {
     position: absolute;
-    top: 720px;
+    top: 790px;
     left: 50px;
   }
 
