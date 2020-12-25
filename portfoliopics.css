@@ -101,3 +101,10 @@
   transform: scale(1.15);
   opacity: 1;
 }
+
+#first-collection {
+  height: 240px;
+  width: 350px;
+}
+
+/*<a href = "url"> text /a>
