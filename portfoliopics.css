@@ -10,7 +10,7 @@
   left: 50px;*/
   margin-left: 5px;
   height: 280px;
-  width: 600px;
+  width: 550px;
   background-color: #555;
 }
   .inside-box {
@@ -18,7 +18,7 @@
     top: 20px;
     left: 20px;*/
     height: 240px;
-    width: 200px;
+    width: 350px;
     background-color: #FFF;
   }
 
@@ -82,7 +82,7 @@
   }
 
   .photo-box p{
-    margin-right: 150px;
+    margin-right: 30px;
     margin-top: 30px;
     text-align: right;
   }
