@@ -1,5 +1,4 @@
-
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -9,92 +8,89 @@ body {
 }
 
 #topbar {
- background-color: #000;
- text-align: center;
- padding-top: 10px;
- padding-bottom: 10px;
+  background-color: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
- #topbar h1 {
-   width: 1250px;
-   text-align: center;
-   font-size: 45px;
-   color: #FFF;
- }
+#topbar h1 {
+  width: 1250px;
+  text-align: center;
+  font-size: 45px;
+  color: #FFF;
+}
 
+#sidebar {
+  padding: 20px 0px 0px 5px;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #000;
+  left: -200px;
+  transition: all 370ms linear;
+}
 
- #sidebar {
-   padding: 20px 0px 0px 5px;
-   position: fixed;
-   width: 200px;
-   height: 100%;
-   background: #000;
-   left: -200px;
-   transition: all 370ms linear;
- }
-
- #sidebar.active {
-   left: 0px;
- }
+#sidebar.active {
+  left: 0px;
+}
 
 #topbar {
- background-color: #000;
- text-align: center;
- padding-top: 10px;
- padding-bottom: 10px;
+  background-color: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
- #topbar h1 {
-   width: 1250px;
-   text-align: center;
-   font-size: 45px;
-   color: #FFF;
- }
+#topbar h1 {
+  width: 1250px;
+  text-align: center;
+  font-size: 45px;
+  color: #FFF;
+}
 
+#sidebar {
+  padding: 20px 0px 0px 5px;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #000;
+  left: -200px;
+  transition: all 370ms linear;
+}
 
- #sidebar {
-   padding: 20px 0px 0px 5px;
-   position: fixed;
-   width: 200px;
-   height: 100%;
-   background: #000;
-   left: -200px;
-   transition: all 370ms linear;
- }
+#sidebar.active {
+  left: 0px;
+}
 
- #sidebar.active {
-   left: 0px;
- }
+#sidebar ul li {
+  color: #FFF;
+  padding: 15px 10px;
+  list-style-type: none;
+}
 
- #sidebar ul li {
-   color: #FFF;
-   padding: 15px 10px;
-   list-style-type: none;
- }
+#sidebar ul li:hover {
+  padding-left: 25px;
+  transition: all 10ms linear;
+  color: #0071bc;
+}
 
- #sidebar ul li:hover{
-   padding-left: 25px;
-   transition: all 10ms linear;
-   color: #0071bc;
- }
+#sidebar .three-lines {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+}
 
- #sidebar .three-lines {
-   position: absolute;
-   left: 230px;
-   top: 20px;
-  }
+#sidebar .three-lines span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  margin-top: 3px;
+  border: 1px solid black;
+}
 
-
- #sidebar .three-lines span {
-   display: block;
-   width: 30px;
-   height: 5px;
-   background-color: white;
-   margin-top: 3px;
-   border: 1px solid black;
- }
-
- #footerbar footer{
+#footerbar footer {
   position: relative;
   min-height: 100px;
   background-color: #000;
@@ -102,7 +98,7 @@ body {
   text-align: center;
   padding-top: 20px;
   position: absolute;
-  bottom: -71.8%;
+  bottom: -20%;
   width: 100%;
   overflow: visible;
 }
@@ -124,28 +120,28 @@ body {
   margin-left: 3%;
   margin-top: 2%;
   margin-right: 50%;
-  background-color: #cfcad9;
-  padding: 1% 1% 2% 1%;
+  background-color: #969493;
+  padding: 1% 1% 7% 1%;
 }
 
 #form-container h2 {
+  font-size: 37px;
   text-align: center;
-
 }
 
-
 #email {
-  margin-top: 2%;
+  margin-top: .5%;
+  margin-bottom: 1%;
   margin-left: 2%;
   text-align: left;
   font-size: 13px;
   padding: 5px 15% 5px 1%;
   border-radius: 7px;
-
 }
 
 #password {
-  margin-top: 1%;
+  margin-top: .5%;
+  margin-bottom: 1%;
   margin-left: 2%;
   text-align: left;
   font-size: 13px;
@@ -153,21 +149,27 @@ body {
   border-radius: 7px;
 }
 
-#signUp {
-  margin-top: 2%;
-  margin-left: 37%;
+#Enter {
+  margin-top: 1%;
+  margin-left: 2%;
   padding: .5% 2% .5% 2%;
-  font-size: 14px;
+  font-size: 17px;
   border-radius: 10px;
 }
 
 #to-sign-in {
-  background-color: #FFF;
-  font-size: 20px;
-  margin-top: 3%;
-  margin-right: 80%;
-  text-align: center;
-  padding: .5% 2% .5% 2%;
-  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 1%;
+  text-align: left;
+  padding: .5% 2% 2% 2%;
+}
 
+#to-sign-in a{
+  text-decoration: none;
+}
+
+#text-title {
+  font-size: 17px;
+  text-decoration: underline;
+  margin-left: 2%;
 }
