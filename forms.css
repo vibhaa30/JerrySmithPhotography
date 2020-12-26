@@ -9,14 +9,15 @@ body {
 
 #topbar {
   background-color: #000;
-  text-align: center;
+  display: flex;
+  align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 #topbar h1 {
   width: 1250px;
-  text-align: center;
+  text-align: 50%;
   font-size: 45px;
   color: #FFF;
 }
@@ -165,6 +166,15 @@ body {
 }
 
 #to-sign-in a{
+  text-decoration: none;
+}
+
+#enter-page {
+  padding: .5% 2% .5% 2%;
+  font-size: 17px;
+}
+
+#enter-page a{
   text-decoration: none;
 }
 
