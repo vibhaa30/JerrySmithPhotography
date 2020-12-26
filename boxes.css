@@ -155,7 +155,7 @@ h2 {
 
 .days li .active {
   padding: 5px;
-  background: #1abc9c;
+  background: #000;
   color: white !important
 }
 
