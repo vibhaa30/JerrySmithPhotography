@@ -10,6 +10,10 @@
       document.getElementById("sidebar").classList.toggle("active");
     }
   </script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+  <script type="text/javascript" src="forms.js"></script>
+
 </head>
 
 <body>
@@ -49,15 +53,20 @@
 
   <div id="form-container">
     <h2>Sign-Up: </h2>
-    <input type="email" placeholder="Email Address" id="email"/>
+    <p id="text-title" href=> Enter email address: </p>
+    <input type="email" placeholder="Type here" id="email" />
     <br>
-    <input type="password" placeholder="Password" id="password"/>
+    <p id="text-title" href=>Create password: </p>
+    <input type="password" placeholder="Type here" id="password" />
     <br>
-    <button onclick="signUp()" id="signUp">Enter</button>
+    <button onclick="signUp()" id="Enter">Sign Up</button>
+    <br>
 
-    <p id=to-sign-in href=>Sign-In</p>
+    <p id=to-sign-in>
+      <a href="sign-in.html">I already have an account</a>
+    </p>
 
-    </div>
+  </div>
 
 </body>
 
