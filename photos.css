@@ -67,7 +67,7 @@
   text-align: center;
   padding-top: 20px;
   position: absolute;
-  bottom: -250px;
+  bottom: -960px;
   width: 100%;
   overflow: visible;
 }
@@ -86,7 +86,6 @@
   margin: 20px;
 }
 #dos {
-  right: 0px;
   width: 250px;
   height: 300px;
   background-color: #333;
@@ -101,35 +100,42 @@
   margin: 20px;
 }
 
-#uno {
+#cuatro {
   width: 450px;
   height: 300px;
   background-color: #333;
   margin: 20px;
 }
 
-#uno {
+#cinco {
   width: 450px;
   height: 300px;
   background-color: #333;
   margin: 20px;
 }
 
-#uno {
+
+#seis {
   width: 450px;
   height: 300px;
   background-color: #333;
   margin: 20px;
 }
 
-#uno {
+#siete {
   width: 450px;
   height: 300px;
   background-color: #333;
   margin: 20px;
 }
 
-#uno {
+#ocho {
+  width: 450px;
+  height: 300px;
+  background-color: #333;
+  margin: 20px;
+}
+#nueve {
   width: 450px;
   height: 300px;
   background-color: #333;
