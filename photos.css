@@ -67,7 +67,7 @@
   text-align: center;
   padding-top: 20px;
   position: absolute;
-  bottom: -960px;
+  bottom: -650px;
   width: 100%;
   overflow: visible;
 }
@@ -79,65 +79,77 @@
   display: inline;
 }
 
-#uno {
-  width: 450px;
-  height: 300px;
-  background-color: #333;
+.odd {
   margin: 20px;
+  height: 300px;
+  width: 425px;
+  background-color: #555;
 }
-#dos {
-  width: 250px;
-  height: 300px;
-  background-color: #333;
+
+.even {
   margin: 20px;
+  height: 300px;
+  width: 340px;
+}
+
+.even1 {
+  margin: 20px;
+  height: 300px;
+  width: 380px;
+
+
+}
+
+#uno {
+  position: absolute;
+  left: 0px;
 }
 
 #tres {
-  top: 600;
-  width: 350px;
-  height: 300px;
-  background-color: #333;
-  margin: 20px;
-}
-
-#cuatro {
-  width: 450px;
-  height: 300px;
-  background-color: #333;
-  margin: 20px;
+  position: absolute;
+  right: 0px;
 }
 
 #cinco {
-  width: 450px;
-  height: 300px;
-  background-color: #333;
-  margin: 20px;
+  position: absolute;
+  top: 390px;
+  left: 400px;
 }
 
+#siete{
+  position: absolute;
+  top: 710px;
+  left: 0px;
+}
 
+#nueve{
+  position: absolute;
+  top: 710px;
+  right: 0px;
+}
+
+#dos {
+  position: absolute;
+  left: 440px;
+  background-color: #555;
+}
+
+#cuatro {
+  position: absolute;
+  top: 390px;
+  left: 0px;
+  background-color: #555;
+}
 #seis {
-  width: 450px;
-  height: 300px;
-  background-color: #333;
-  margin: 20px;
+  position: absolute;
+  top: 390px;
+  right: 0px;
+  background-color: #555;
 }
 
-#siete {
-  width: 450px;
-  height: 300px;
-  background-color: #333;
-  margin: 20px;
-}
-
-#ocho {
-  width: 450px;
-  height: 300px;
-  background-color: #333;
-  margin: 20px;
-}
-#nueve {
-  width: 450px;
-  height: 300px;
-  background-color: #333;
-  margin: 20px;
+#ocho{
+  position: absolute;
+  top: 710px;
+  left: 440px;
+  background-color: #555;
 }
