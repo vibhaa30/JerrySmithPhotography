@@ -67,7 +67,7 @@
   text-align: center;
   padding-top: 20px;
   position: absolute;
-  bottom: -610px;
+  bottom: -770px;
   width: 100%;
   overflow: visible;
 }
@@ -108,57 +108,68 @@ h2 {
 
 #uno {
   position: absolute;
-  top: 100px;
+  top: 260px;
   left: 0px;
 }
 
 #tres {
   position: absolute;
-  top: 100px;
+  top: 260px;
   right: 0px;
 }
 
 #cinco {
   position: absolute;
-  top: 415px;
+  top: 575px;
   left: 400px;
 }
 
 #siete{
   position: absolute;
-  top: 730px;
+  top: 890px;
   left: 0px;
 }
 
 #nueve{
   position: absolute;
-  top: 730px;
+  top: 890px;
   right: 0px;
 }
 
 #dos {
   position: absolute;
-  top: 100px;
+  top: 260px;
   left: 440px;
   background-color: #555;
 }
 
 #cuatro {
   position: absolute;
-  top: 415px;
+  top: 575px;
   left: 0px;
   background-color: #555;
 }
 #seis {
   position: absolute;
-  top: 415px;
+  top: 575px;
   right: 0px;
   background-color: #555;
 }
 
 #ocho{
   position: absolute;
-  top: 730px;
+  top: 890px;
   left: 440px;
   background-color: #555;
+}
+
+#info {
+  position: absolute;
+  top: 115px; 
+  width: 97%;
+  height: 150px;
+  background-color: #333;
+  text-align: center;
+  left: 20px;
+
 }
