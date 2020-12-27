@@ -4,6 +4,11 @@
 }
 
 body {
+  background-color: #f5f1ed;
+  font-family: arial;
+  width: 100%;
+  position: relative;
+
 }
 
 #topbar {
@@ -14,7 +19,6 @@ body {
 }
 
  #topbar h1 {
-   width: 1250px;
    text-align: center;
    font-size: 45px;
    color: #FFF;
@@ -65,9 +69,8 @@ body {
 
 
 .aboutTitle {
-  padding-top: 5%;
+  padding-top: 2%;
   padding-bottom: 5%;
-  background-color: #cacccf;
 }
 
 .aboutTitle h2 {
@@ -80,14 +83,13 @@ body {
 }
 
 .bioText {
-  padding-top: 45px;
   margin-left: 15%;
   padding-right: 15%;
 
 }
 
 .bioText h3{
-  font-size: 24px;
+  font-size: 33px;
   text-decoration: underline;
   overflow-wrap: 50%;
 }
@@ -107,77 +109,81 @@ body {
 
 }
 
+.link-wrapper {
+  margin-left: 15%;
+  padding-bottom: 2%;
+}
+
  #port {
   margin-top: 8%;
-  margin-left: 30%;
   margin-right: 50%;
-  padding: 20px 30px 20px 65px;
-  background-color: #cacccf;
-  border: 10px solid #000;
-}
-
-#appt{
-margin-top: 3%;
- margin-left: 30%;
- margin-right: 50%;
- margin-bottom: 3%;
- padding: 20px 30px 20px 65px;
- background-color: #cacccf;
- border: 10px solid #000;
+  text-align: center;
+  padding: 5% 30px 5% 65px;
+  background-color: #dad2bc;
 }
 
 
-hr {
-  margin-bottom: .3%;
+#appt {
+  font-size: 20px;
+  text-align: center;
+  width: 10.5%;
+  margin-top: -13%;
+  margin-left: 63.5%;
+  margin-right: 50%;
+  margin-bottom: 3%;
+  padding: 15px 65px; 15px 65px;
+  background-color: #B89592;
+  border: 4px solid #000000;
 }
+
+#access {
+  font-size: 20px;
+  text-align: center;
+  width: 10.5%;
+  margin-top: -2%;
+  margin-left: 63.5%;
+  margin-right: 50%;
+  padding: 15px 65px 15px 65px;
+  background-color: #B89592;
+  border: 4px solid #000000;
+}
+
 
 .contact-me  {
-  background-color: #cacccf;
+  background-color: #A99985;
   padding-top: 45px;
   padding-left: 15%;
   padding-right: 15%;
-
+  padding-bottom: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
 }
 
 .contact-me h2 {
   font-size: 27px;
-  text-decoration: underline;
   margin-bottom: 1%;
-}
-
-.contact-me h3{
-  margin-left: 15%;
-  font-size: 20px;
-  overflow-wrap: 50%;
-
+  text-align: center;
 }
 
 .contact-me p{
-  margin-left: 17%;
-  font-size: 18px;
-  text-align: left;
-  line-height: 1.5;
-}
-
-.contact-me h4{
-  margin-top: 3%;
+  font-size: 23px;
   text-align: center;
-  font-size: 20px;
   line-height: 1.5;
+  margin-bottom: 7%;
 
 }
 
 #footerbar footer{
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 2%;
+  margin-top: 500px;
   min-height: 100px;
   background-color: #000;
-  padding-bottom: 2.5px;
   text-align: center;
-  padding-top: 20px;
   position: absolute;
-  bottom: -71.8%;
-  width: 100%;
-  overflow: visible;
 }
 
 #footerbar ul li {
