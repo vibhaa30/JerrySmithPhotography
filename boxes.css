@@ -3,8 +3,9 @@
   padding: 0px;
 }
 
+
 #topbar {
- background-color: #000;
+ background-color: #252323;
  width: auto;
  padding-top: 10px;
  padding-bottom: 10px;
@@ -80,6 +81,9 @@
 }
 
 
+body{
+background-color: #F5F1ED
+}
 
 h2 {
   padding: 15px;
@@ -90,9 +94,9 @@ h2 {
 .month {
   margin-left: 10px;
   padding: 60px 25px;
-  width: 70%;
+  width: 70.5%;
   height: 10px;
-  background: #000;
+  background: #A99985;
   text-align: center;
 }
 
@@ -122,14 +126,14 @@ h2 {
 .weekdays {
   margin-left: 10px;
   padding: 10px 0;
-  width: 74%;
-  background-color: #ddd;
+  width: 74.5%;
+  background-color: #DAD2BC;
 }
 
 .weekdays li {
   display: inline-block;
   width: 13.6%;
-  color: #666;
+  color: #000;
   text-align: center;
   font-size: 20px;
 }
@@ -140,7 +144,11 @@ h2 {
   padding: 10px 0;
   width: 74%;
   height: 550px;
-  background: #eee;
+  background: #fff;
+
+  border-style: solid;
+  border-width: medium;
+  border-color: #DAD2BC;
 }
 
 .days li {
@@ -164,30 +172,30 @@ h2 {
 .big-box {
   position: absolute;
   right: 0px;
-  width: 300px;
+  width: 280px;
   height: 745px;
   margin-right: 13px;
-  background-color: #000;
+  background-color: #B89592;
   border-radius: 20px;
 }
 
 #box1 {
   position: absolute;
-  background-color: #999;
+  background-color: #F5F1ED;
   margin: 10px;
   right: 0px;
-  width: 280px;
+  width: 260px;
   height: 235px;
   border-radius: 20px;
 }
 
 #box2 {
   position: absolute;
-  background-color: #999;
+  background-color: #F5F1ED;
   top: 245px;
   margin: 10px;
   right: 0px;
-  width: 280px;
+  width: 260px;
   height: 235px;
   border-radius: 20px;
 }
@@ -195,11 +203,11 @@ h2 {
 
 #box3 {
   position: absolute;
-  background-color: #999;
+  background-color: #F5F1ED;
   top: 490px;
   margin: 10px;
   right: 0px;
-  width: 280px;
+  width: 260px;
   height: 235px;
   border-radius: 20px;
 }
