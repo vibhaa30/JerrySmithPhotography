@@ -1,7 +1,12 @@
+body {
+  background-color: #F5F1ED
+}
+
 #top-title h2{
   padding: 20px;
   text-align:center;
   font-size: 30px;
+  color: #252323
 
 }
 .photo-box {
@@ -14,7 +19,7 @@
   background-color: #FFF;
   border-style: solid;
   border-width: medium;
-  border-color: #000;
+  border-color: #DAD2BC;
 
 }
   .inside-box {
@@ -23,7 +28,7 @@
     left: 20px;*/
     height: 240px;
     width: 350px;
-    background-color: #FFF;
+    background-color: #F5F1ED;
   }
 
   #first {
