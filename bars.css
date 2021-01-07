@@ -139,40 +139,12 @@
 
 
 
-.collection-boxes :after{
+.collection-boxes {
   content: "";
   clear: both;
   display: table;
 }
 
-#Left {
-  padding: 25px;
-  margin-left: 30px;
-  width: 400px;
-  height: 400px;
-  float: left;
-}
-
-
-#Middle {
-  padding: 25px;
-  width: 400px;
-  height: 400px;
-  float: middle;
-}
-
-#Right {
-  padding: 25px;
-  width: 400px;
-  height: 400px;
-  float: right;
-}
-
-
-.column {
-  float: left;
-
-}
 
 
 
