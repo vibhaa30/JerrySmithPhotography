@@ -542,8 +542,7 @@
 /* Box */
 
 	.box {
-    background-color: #252323;
-		border-radius: 6px;
+    background-color: #fff;
 		box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
 		padding: 3em;
@@ -619,6 +618,7 @@
 
 		.box.special {
 			text-align: center;
+			background: #252323;
 		}
 
 		.box .image.featured {
