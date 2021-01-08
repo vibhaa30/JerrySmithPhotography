@@ -1833,6 +1833,7 @@
 
 					#navPanel .link.depth-0 {
 						color: #fff;
+						-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 					}
 
 					#navPanel .link .indent-1 {
