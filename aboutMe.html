@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="aboutMe.css">
   <script type="text/javascript" src="sidebar.js"></script>
   <script type="text/javascript">
-
     function toggleSB() {
       document.getElementById("sidebar").classList.toggle("active");
     }
@@ -15,8 +14,8 @@
   <title>About Jerry Smith</title>
 </head>
 
-<body>
-
+<body class="landing is-preload">
+  <!---
   <div id="sidebar">
       <div class="three-lines" onclick="toggleSB()">
         <span style="font-size:30px;cursor:pointer"></span>
@@ -86,5 +85,66 @@
     </footer>
   </div>
 </body>
+--->
+  <header id="header" class="alt">
+    <h1><a href="index.html">Jerry Smith </a> Photography</h1>
+    <nav id="nav">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">About Jerry Smith</a></li>
+        <li><a href="">Contact Me</a></li>
+        <li><a href="">Book Appointment</a></li>
+        <li><a href="#" class="button">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="box special">
+    <header class="major">
+      <h2>Jerry Smith Photography </h2>
+      <p>No matter your gender, culture, ethnicity, race, or abilities you are welcome here
+        <br /> We value you!! <br> Click here for ACCESSIBILITY OPTIONS!
+      </p>
+
+    </header>
+
+
+    <div id="navButton">
+      <a href="#navPanel" class="toggle"> </a>
+
+    </div>
+    <div id="navPanel">
+      <nav>
+        <a class="link depth-0" href="index.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+          <span class="indent-0"></span>
+          Home
+        </a>
+        <a class="link depth-0" href="#" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+          <span class="indent-0"></span>
+          Login
+        </a>
+        <a class="link depth-0" href="#">
+          <span class="indent-0"></span>
+          Portfolio
+        </a>
+        <a class="link depth-0" href="#">
+          <span class="indent-0"></span>
+          About Jerry Smith
+        </a>
+        <a class="link depth-0" href="#">
+          <span class="indent-0"></span>
+          Contact
+        </a>
+        <a class="link depth-0" href="#">
+          <span class="indent-0"></span>
+          Book Appointment
+        </a>
+        <a class="link depth-0" href="#">
+          <span class="indent-0"></span>
+          Sign Up
+        </a>
+      </nav>
+    </div>
 
 </html>
