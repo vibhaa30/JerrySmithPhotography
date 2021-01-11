@@ -898,6 +898,11 @@
 			text-align: center;
 		}
 
+		 #sign-in{
+			text-align: center;
+			background: #dad2bc;
+		}
+
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
@@ -1810,6 +1815,9 @@
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
+		width: 100%;
+		margin-bottom: 50px;
+		border-radius: 20px
 	}
 
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
@@ -1818,7 +1826,7 @@
 
 		#cta form {
 			margin-left: 46%;
-			max-width: 100%;
+			max-width: 100%
 			width: 25em;
 		}
 
