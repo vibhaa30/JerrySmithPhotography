@@ -109,7 +109,7 @@ body, input, select, textarea {
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
-  letter-spacng: -0.015em;
+  letter-spacing: -0.015em;
 }
 
 a {
@@ -118,7 +118,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #e89980;
+  color: black;
   text-decoration: none;
 }
 
@@ -165,12 +165,8 @@ h3 {
 
 h4 {
   text-align: center;
-  margin: 20px 30% 0px 30%;
-  font-size: 1.1em;
   line-height: 1.5em;
   letter-spacing: 0;
-  background-color: #B89592;
-  padding: 10px;
 }
 
 h5 {
@@ -571,8 +567,16 @@ header.major {
   text-align: center;
 }
 
-header.major h2 {
+header.major h4 {
   margin: 0;
+	font-size: 1.3em;
+	display: inline-block;
+  border-top: solid 2px #e5e5e5;
+	border-bottom: solid 2px #e5e5e5;
+  color: #777;
+  padding: 1em 0 1em 0;
+  font-style: normal;
+
 }
 
 header.major p {
@@ -800,8 +804,16 @@ input[type="radio"]+label:before {
 .box {
   background-color: #fff;
   box-shadow: 0 2px 0 0 #e5e5e5;
+	border-radius: 6px;
   margin: 0 0 2em 0;
   padding: 3em;
+}
+
+.box.top {
+	margin-top: -9em;
+	text-align: center;
+	padding: 2em;
+
 }
 
 .box> :last-child {
@@ -874,7 +886,6 @@ input[type="radio"]+label:before {
 
 .box.special {
   text-align: center;
-  background: #252323;
 }
 
 #sign-in {
@@ -1026,7 +1037,33 @@ input[type="radio"]+label:before {
 .image.fit img {
   display: block;
   width: 100%;
+	transition: .5s ease;
+  backface-visibility: hidden;
 }
+
+.bottom {
+	transition: .5s ease;
+	position: absolute;
+	opacity: 0;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.contain :hover{
+	opacity:75%;
+}
+
+.contain :hover .bottom{
+	opacity: 100%;
+}
+
+.text {
+	color: black;
+}
+
 
 /* List */
 ol {
@@ -1290,7 +1327,7 @@ input[type="button"],
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: #666;
+  background-color: #B89592;
   border-radius: 6px;
   border: 0;
   color: #ffffff;
@@ -1303,6 +1340,12 @@ input[type="button"],
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
+}
+
+#portfolio {
+	margin-left: 185%;
+	margin-right: 185%;
+
 }
 
 input[type="submit"]:hover,
@@ -1475,7 +1518,7 @@ body.landing #page-wrapper {
 
 #header {
   background-color: #252323;
-	opacity: 100%;
+	opacity: 89%;
   color: #000;
   cursor: default;
   height: 3.25em;
@@ -1613,7 +1656,7 @@ body.landing #page-wrapper {
   -ms-animation: none;
   animation: none;
   color: rgba(255, 255, 255, 0.75);
-  position: absolute;
+	z-index: 9999;
 }
 
 #header.alt nav>ul>li a:not(.button).icon:before {
@@ -1708,7 +1751,8 @@ body.landing #page-wrapper {
 /* Banner */
 #banner {
   background-attachment: scroll, fixed;
-  background-image: url("Images/Banner-img.jpg"), url("../../Images/Banner-img.jpeg");
+	background-color: #666;
+  background-image: url("Images/Banner-img.jpeg"), url("../../Images/Banner-img.jpeg");
   background-position: center top ;
   background-repeat: repeat, no-repeat;
   background-size: cover;
@@ -1725,17 +1769,17 @@ body.landing #page-wrapper {
 }
 
 #banner h2 {
-	background-color: black;
-	opacity
+	background-color: #252322;
+	opacity: 75%;
   font-size: 3.5em;
   line-height: 1em;
-  margin: 0% 25% 0.5em 25%;
+  margin: 0% 28% 0.5em 28%;
   padding: 0;
 }
 
 #banner p {
   font-size: 1.25em;
-  margin-bottom: 1.75em;
+
 }
 
 #banner input[type="submit"],
@@ -1852,7 +1896,6 @@ body.landing #main {
   text-align: center;
   width: 100%;
   margin-bottom: 50px;
-  border-radius: 20px
 }
 
 #cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
@@ -1957,6 +2000,7 @@ body.landing #main {
   }
 }
 
+
 /* Narrower */
 #navPanel, #navButton {
   display: none;
@@ -1982,14 +2026,21 @@ body.landing #main {
     display: none;
   }
 
+
+
   header.major {
     padding: 0 4em;
   }
 
   /* Box */
   .box {
+		border-radius: 6px;
     padding: 3em 2em;
   }
+
+	.box.top {
+		margin-top: 0em;
+	}
 
   .box.features>section {
     padding: 3em 2em;
@@ -1997,7 +2048,8 @@ body.landing #main {
 
   .box .image.featured {
     margin-left: -2em;
-    width: calc(100% + 4em);
+		max-width: calc(100% - 5em);
+	  width: 60em;
   }
 
   .box .image.featured:first-child {
@@ -2010,6 +2062,10 @@ body.landing #main {
     margin-top: 3em;
   }
 
+	#portfolio {
+		margin-left: 85%;
+		margin-right: 85%;
+	}
   /* Header */
   #page-wrapper {
     padding-top: 0;
@@ -2216,9 +2272,14 @@ body.landing #main {
 
   /* Box */
   .box {
-    margin: 1em;
+		border-radius: 6px;
+		background: #fff;
+		box-shadow: 0 2px 0 0 #e5e5e5;
+		margin: 0 0 2em 0;
+		padding: 3em;
+    /* margin: 1em;
     overflow-x: hidden;
-    padding: 2em 2em !important;
+    padding: 2em 2em !important */;
   }
 
   .box.features .features-row {
@@ -2256,6 +2317,10 @@ body.landing #main {
     margin-top: 2em;
   }
 
+	#portfolio {
+		margin-left: 70%;
+		margin-right: 70%;
+	}
   /* Banner */
   #banner {
     padding: 4em 0;
@@ -2358,7 +2423,7 @@ body.landing #main {
 
   /* Box */
   .box {
-    border-radius: 0;
+    border-radius: 6px;
     box-shadow: none;
     margin: 1em 0 0 0;
     padding: 3em 1em !important;
@@ -2389,6 +2454,11 @@ body.landing #main {
     margin-top: 3em;
   }
 
+	#portfolio {
+		margin-left: 105%;
+		margin-right: 105%;
+		font-size: 10px;
+	}
   /* Banner */
   #banner {
     padding: 5em 3em 4em 3em;
