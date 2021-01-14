@@ -2445,6 +2445,7 @@ html, body, div, span, applet, object,
 			float: left;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
+
 		}
 
 		.image.right {
@@ -2464,6 +2465,10 @@ html, body, div, span, applet, object,
 				width: 100%;
 			}
 
+			#collections{
+				width: 100px;
+				height:100px;
+			}
 /* List */
 
 	ol {
