@@ -3204,7 +3204,7 @@
  }
 
  .calendar {
-   background: #2b4450;
+   background: #A99985;
    border-radius: 4px;
    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
    height: 501px;
@@ -3271,7 +3271,7 @@
  }
 
  .weeks span.active {
-   background: #f78536;
+   background: #DAD2BC;
    border-radius: 50%;
  }
 
@@ -3284,14 +3284,14 @@
    position: relative;
  }
 
- .event:after {
+ /*.event:after {
    content: '•';
    color: #f78536;
    font-size: 1.4em;
    position: absolute;
    right: -4px;
    top: -4px;
- }
+ }*/
 
  /* Back - Event form */
 
