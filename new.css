@@ -2430,6 +2430,11 @@ html, body, div, span, applet, object,
 
 /* Image */
 
+.contain {
+  position: relative;
+  width: 50%;
+}
+
 	.image {
 		border-radius: 6px;
 		border: 0;
@@ -2448,6 +2453,13 @@ html, body, div, span, applet, object,
 			float: left;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
+			transition: .5s ease;
+			backface-visibility: hidden;
+		}
+
+		.image.left {
+			transition: .5s ease;
+			backface-visibility: hidden;
 
 		}
 
