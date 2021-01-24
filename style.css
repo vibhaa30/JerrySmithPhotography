@@ -885,6 +885,10 @@ input[type="radio"]+label:before {
   padding-bottom: 0;
 }
 
+.align {
+  align-items: center;
+}
+
 .box.special {
   text-align: center;
 }
@@ -906,6 +910,7 @@ input[type="radio"]+label:before {
   border-radius: 0;
   display: block;
   width: 100%;
+  height: 300px;
 }
 
 .box .image.featured:first-child {
