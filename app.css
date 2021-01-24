@@ -110,7 +110,7 @@ html, body, div, span, applet, object,
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: #252322;
 		text-decoration: none;
 	}
 
@@ -2966,7 +2966,7 @@ html, body, div, span, applet, object,
 
 		#header {
 		  background-color: #252323;
-			opacity: 89%;
+			opacity: 75%;
 		  color: #000;
 		  cursor: default;
 		  height: 3.25em;
