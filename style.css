@@ -1760,17 +1760,38 @@ body.landing #page-wrapper {
   padding: 12em 0 20em 0;
   text-align: center;
 }
+#corrected-banner {
+  background-attachment: scroll, fixed;
+	background-color: #666;
+  background-image: url("Images/corrected_banner.jpeg"), url("../../Images/corrected_banner.jpeg");
+  background-position: center top ;
+  background-repeat: repeat, no-repeat;
+  background-size: cover;
+  padding: 12em 0 20em 0;
+  text-align: center;
+}
 
 #banner :last-child {
   margin-bottom: 0;
 }
-
-#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-  color: #fff;
+#corrected-banner :last-child {
+  margin-bottom: 0;
 }
+
 
 #banner h2 {
 	background-color: #252322;
+  color: #fff;
+	opacity: 75%;
+  font-size: 3.5em;
+  line-height: 1em;
+  margin: 0% 28% 0.5em 28%;
+  padding: 0;
+}
+
+#corrected-banner h2 {
+	background-color: #252322;
+  color: #fff;
 	opacity: 75%;
   font-size: 3.5em;
   line-height: 1em;
@@ -1779,6 +1800,12 @@ body.landing #page-wrapper {
 }
 
 #banner p {
+  color: #fff;
+  font-size: 1.25em;
+
+}
+#corrected-banner p {
+  color: #fff;
   font-size: 1.25em;
 
 }
