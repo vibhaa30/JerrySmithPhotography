@@ -964,6 +964,8 @@ input[type="radio"]+label:before {
   font-family: 'Font Awesome 5 Brands';
 }
 
+
+
 .icon.major {
   background: #666;
   border-radius: 100%;
