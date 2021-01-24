@@ -65,6 +65,7 @@ html, body, div, span, applet, object,
 		appearance: none;
 	}
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -203,16 +204,16 @@ html, body, div, span, applet, object,
 	}
 
 	pre {
-		-webkit-overflow-scrolling: touch;
-		background: #f8f8f8;
-		border-radius: 6px;
-		border: solid 1px #e5e5e5;
-		font-family: monospace;
-		font-size: 0.9em;
-		line-height: 1.75em;
-		margin: 0 0 2em 0;
-		overflow-x: auto;
-		padding: 1em 1.5em;
+	  -webkit-overflow-scrolling: touch;
+	  background: #F5F1ED;
+	  border-radius: 6px;
+	  border: solid 1px #e5e5e5;
+	  font-family: monospace;
+	  font-size: 0.9em;
+	  line-height: 1.75em;
+	  margin: 0 0 2em 0;
+	  overflow-x: auto;
+	  padding: 1em 1.5em;
 	}
 
 	code {
@@ -2497,6 +2498,7 @@ html, body, div, span, applet, object,
 				width: 100px;
 				height:100px;
 			}
+
 /* List */
 
 	ol {
