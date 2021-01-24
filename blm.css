@@ -143,7 +143,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #646464;
   font-weight: 300;
-  line-height: 1em;
+  line-height: 0.5em;
   margin: 0 0 0.5em 0;
 }
 
@@ -159,7 +159,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 1.6em;
   line-height: 1.5em;
   letter-spacing: -0.025em;
 }
@@ -315,7 +315,7 @@ code {
 }
 
 .row>.col-4 {
-  width: 33.33333%;
+  width: 50%;
 }
 
 .row>.off-4 {
@@ -421,20 +421,20 @@ code {
 }
 
 .row.gtr-50 {
-  margin-top: 0;
-  margin-left: -1em;
+  /* margin-top: 0; */
+  /* margin-left: -1em; */
 }
 
 .row.gtr-50>* {
-  padding: 0 0 0 1em;
+  /* padding: 0 0 0 1em; */
 }
 
 .row.gtr-50.gtr-uniform {
-  margin-top: -1em;
+  /* margin-top: -1em; */
 }
 
 .row.gtr-50.gtr-uniform>* {
-  padding-top: 1em;
+  /* padding-top: 1em; */
 }
 
 .row {
@@ -1032,12 +1032,14 @@ input[type="radio"]+label:before {
 
 .image.fit {
   display: block;
-  margin: 0 0 2em 2em width: 100%;
+  margin: 0em 2em 2em 0.5em;
+  width: 100%;
 }
 
 .image.fit img {
   display: block;
-  width: 100%;
+  width: 95%;
+  height: 300px;
 	transition: .5s ease;
   backface-visibility: hidden;
 }
