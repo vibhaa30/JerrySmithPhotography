@@ -1,4 +1,4 @@
-\html, body, div, span, applet, object,
+html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	pre, a, abbr, acronym, address, big, cite,
 	code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -3098,9 +3098,8 @@
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background: none;
 			color: rgba(255, 255, 255, 0.75);
-			position: absolute;
+			z-index: 9999;
 		}
 
 			#header.alt nav > ul > li a:not(.button).icon:before {
@@ -3393,10 +3392,10 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
+		background-image: url("minimalist.jpg"), url("../../minimalist.jpg");
+		background-position: center bottom;
 		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-size: 100%;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
@@ -3411,15 +3410,18 @@
 		}
 
 		#banner h2 {
+			background-color: #252322;
+			opacity: 75%;
 			font-size: 3.5em;
 			line-height: 1em;
-			margin: 0 0 0.5em 0;
+			margin: 0% 28% 0.5em 28%;
 			padding: 0;
+
 		}
 
 		#banner p {
 			font-size: 1.25em;
-			margin-bottom: 1.75em;
+			padding-bottom: 1.5em;
 		}
 
 		#banner input[type="submit"],
@@ -3484,52 +3486,53 @@
 		margin-top: -14em;
 	}
 
+
 /* Footer */
 
-	#footer {
-		background: #f0f0f0;
-		padding: 4em 0 6em 0;
-		text-align: center;
-	}
+#footer {
+  background: #f0f0f0;
+  padding: 4em 0 6em 0;
+  text-align: center;
+}
 
-		#footer .icons a {
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
-			transition: opacity 0.2s ease-in-out;
-			opacity: 0.35;
-		}
+#footer .icons a {
+  -moz-transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0.35;
+}
 
-			#footer .icons a:hover {
-				opacity: 0.75;
-			}
+#footer .icons a:hover {
+  opacity: 0.75;
+}
 
-		#footer .copyright {
-			color: #999;
-			font-size: 0.9em;
-			line-height: 1em;
-			margin: 2em 0 0 0;
-			padding: 0;
-			text-align: center;
-		}
+#footer .copyright {
+  color: #999;
+  font-size: 0.9em;
+  line-height: 1em;
+  margin: 2em 0 0 0;
+  padding: 0;
+  text-align: center;
+}
 
-			#footer .copyright a {
-				color: inherit;
-			}
+#footer .copyright a {
+  color: inherit;
+}
 
-			#footer .copyright li {
-				border-left: solid 1px #dddddd;
-				display: inline-block;
-				list-style: none;
-				margin-left: 1em;
-				padding-left: 1em;
-			}
+#footer .copyright li {
+  border-left: solid 1px #dddddd;
+  display: inline-block;
+  list-style: none;
+  margin-left: 1em;
+  padding-left: 1em;
+}
 
-				#footer .copyright li:first-child {
-					border-left: 0;
-					margin-left: 0;
-					padding-left: 0;
-				}
+#footer .copyright li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
 
 /* CTA */
 
