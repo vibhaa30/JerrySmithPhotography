@@ -3392,7 +3392,7 @@ html, body, div, span, applet, object,
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("minimalist.jpg"), url("../../minimalist.jpg");
+		background-image: url("Images/minimalist.jpg"), url("../../Images/minimalist.jpg");
 		background-position: center bottom;
 		background-repeat: repeat,							no-repeat;
 		background-size: 100%;
