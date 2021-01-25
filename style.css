@@ -1065,6 +1065,10 @@ input[type="radio"]+label:before {
 
 .text {
 	color: black;
+  background-color: white;
+  margin-left: -18%;
+  margin-right: -18%;
+  padding: .3em;
 }
 
 
