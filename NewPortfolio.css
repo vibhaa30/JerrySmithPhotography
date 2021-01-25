@@ -121,7 +121,7 @@ html, body, div, span, applet, object,
 
 	strong, b {
 		color: #646464;
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -225,6 +225,8 @@ html, body, div, span, applet, object,
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
+
+
 
 	.align-left {
 		text-align: left;
@@ -2244,6 +2246,7 @@ html, body, div, span, applet, object,
 		padding: 3em;
 	}
 
+
 		.box > :last-child {
 			margin-bottom: 0;
 		}
@@ -2468,6 +2471,9 @@ html, body, div, span, applet, object,
 		  width: 100%;
 			transition: .5s ease;
 		  backface-visibility: hidden;
+		}
+		#forPadding {
+			padding-bottom: 3em;
 		}
 
 		.contain :hover{
