@@ -1696,7 +1696,50 @@ body.landing #page-wrapper {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.dropotron {
+.dropdown {
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #999;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #999;
+  opacity: 89%;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  opacity: 98%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: grid;
+}
+/* .dropotron {
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.065), inset 0 -1px 0 0 #fff, inset 0 0 0 1px rgba(229, 229, 229, 0.5);
@@ -1754,15 +1797,15 @@ body.landing #page-wrapper {
   top: -0.375em;
   width: 0.75em;
   z-index: 0;
-}
+} */
 
 /* Banner */
 #banner {
   background-attachment: scroll, fixed;
 	background-color: #666;
-  background-image: url("Images/Banner-img.jpeg"), url("../../Images/Banner-img.jpeg");
-  background-position: center top ;
-  background-repeat: repeat, no-repeat;
+  background-image: url("Images/trees.png"), url("../../Images/trees.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   padding: 12em 0 20em 0;
   text-align: center;
@@ -2047,8 +2090,9 @@ body.landing #main {
   }
 
 	.box.top {
-		margin-top: 0em;
-	}
+    margin-top: -9em;
+    text-align: center;
+    padding: 2em;	}
 
   .box.features>section {
     padding: 3em 2em;
