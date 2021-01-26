@@ -113,7 +113,7 @@ body {
 
 body, input, select, textarea {
   color: #777;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "OpenDyslexic", sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
@@ -226,7 +226,7 @@ pre {
   background: #F5F1ED;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
-  font-family: monospace;
+  font-family: "OpenDyslexic";
   font-size: 0.9em;
   line-height: 1.75em;
   margin: 0 0 2em 0;
