@@ -1,43 +1,19 @@
-@import url("fontawesome-all.min.css");
+/* @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @font-face {
   font-family: 'opendyslexic';
 	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Regular.otf');
 	font-style: normal;
 	font-weight: 600;
-}
+} */
 
 @font-face {
-	font-family: 'opendyslexic';
-	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Italic.ttf');
-	font-style: italic;
-	font-weight: normal;
-}
+font-family: "OpenDyslexic";
+src:
+url("fonts/OpenDyslexic-Italic.otf") format("opentype"),
+url("fonts/OpenDyslexic-Bold.otf") format("opentype"),
+url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 
-@font-face {
-	font-family: 'opendyslexic';
-	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-Bold.ttf');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'opendyslexic';
-	src: url('http://dyslexicfonts.com/fonts/OpenDyslexic-BoldItalic.ttf');
-	font-weight: bold;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: eulexia;
-	src: url('http://dyslexicfonts.com/fonts/eulexia.ttf');
-}
-
-* {
-	font-size:20px;
-	line-height:200%;
-	color: #191A42;
-	font-family:"opendyslexic" !important;
 }
 
 /*
@@ -144,12 +120,20 @@ body {
 
 body, input, select, textarea {
   color: #777;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "OpenDyslexic", sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
   letter-spacing: -0.015em;
 }
+
+/* h1 {
+font-family: 'Harabara Bold', Arial, sans-serif;
+font-weight:normal;
+font-style:normal;
+} */
+
+
 
 a {
   -moz-transition: color 0.2s eas-in-out, border-bottom-color 0.2s ease-in-out;
