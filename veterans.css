@@ -1705,7 +1705,7 @@ body.landing #page-wrapper {
 }
 
 .dropdown {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .dropdown .dropbtn {
