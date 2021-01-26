@@ -1,5 +1,13 @@
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+/* @import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic"); */
+@font-face {
+font-family: "OpenDyslexic";
+src:
+url("fonts/OpenDyslexic-Italic.otf") format("opentype"),
+url("fonts/OpenDyslexic-Bold.otf") format("opentype"),
+url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
+
+}
 
 
 html, body, div, span, applet, object,
