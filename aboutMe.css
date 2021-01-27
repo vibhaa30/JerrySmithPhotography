@@ -1,13 +1,5 @@
-/* @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic"); */
-@font-face {
-font-family: "OpenDyslexic";
-src:
-url("fonts/OpenDyslexic-Italic.otf") format("opentype"),
-url("fonts/OpenDyslexic-Bold.otf") format("opentype"),
-url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
-
-}
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
 	Alpha by HTML5 UP
@@ -121,7 +113,7 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 
 	body, input, select, textarea {
 		color: #777;
-		font-family: "OpenDyslexic", sans-serif;
+		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -231,7 +223,7 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 		background: #f8f8f8;
 		border-radius: 6px;
 		border: solid 1px #e5e5e5;
-		font-family: "OpenDyslexic";
+		font-family: monospace;
 		font-size: 0.9em;
 		line-height: 1.75em;
 		margin: 0 0 2em 0;
