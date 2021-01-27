@@ -1041,12 +1041,14 @@ input[type="radio"]+label:before {
 
 .image.fit {
   display: block;
-  margin: 0 0 2em 2em width: 100%;
+  margin: 0 0 2em 2em;
+  width: 100%;
 }
 
 .image.fit img {
   display: block;
   width: 100%;
+  height: 200px;
 	transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -1818,7 +1820,7 @@ body.landing #page-wrapper {
 #banner {
   background-attachment: scroll, fixed;
 	background-color: #666;
-  background-image: url("Images/Banner-img.jpeg"), url("../../Images/Banner-img.jpeg");
+  background-image: url("daltonize-p-Banner-img.jpeg"), url("../../daltonize-p-Banner-img.jpeg");
   background-position: center top ;
   background-repeat: repeat, no-repeat;
   background-size: cover;
