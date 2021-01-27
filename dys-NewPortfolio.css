@@ -144,6 +144,10 @@ html, body, div, span, applet, object,
 		margin: 0 0 2em 0;
 	}
 
+	#environText {
+		line-height: 1.45;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #646464;
 		font-weight: 300;
