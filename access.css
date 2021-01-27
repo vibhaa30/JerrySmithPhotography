@@ -1,5 +1,16 @@
-@import url("fontawesome-all.min.css");
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+=======
+/* @import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic"); */
+@font-face {
+font-family: "OpenDyslexic";
+src:
+url("fonts/OpenDyslexic-Italic.otf") format("opentype"),
+url("fonts/OpenDyslexic-Bold.otf") format("opentype"),
+url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
+
+}
 
 
 /*
@@ -106,7 +117,7 @@ body {
 
 body, input, select, textarea {
   color: #777;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "OpenDyslexic", sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
@@ -217,7 +228,7 @@ pre {
   background: #F5F1ED;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
-  font-family: monospace;
+  font-family: "OpenDyslexic";
   font-size: 0.9em;
   line-height: 1.75em;
   margin: 0 0 2em 0;
@@ -1766,6 +1777,7 @@ body.landing #page-wrapper {
 #banner {
   background-attachment: scroll, fixed;
 	background-color: #666;
+<<<<<<< HEAD:access.css
   background-image: url("Images/Banner-img.jpeg"), url("../../Images/Banner-img.jpeg");
   background-position: center top ;
   background-repeat: repeat, no-repeat;
@@ -1777,6 +1789,9 @@ body.landing #page-wrapper {
   background-attachment: scroll, fixed;
 	background-color: #666;
   background-image: url("Images/corrected_banner.jpeg"), url("../../Images/corrected_banner.jpeg");
+=======
+  background-image: url("Protanopia-veteran/daltonize-p-flag.png"), url("../../Protanopia-veteran/daltonize-p-flag.png");
+>>>>>>> protanopia-correct:prot-veterans.css
   background-position: center top ;
   background-repeat: repeat, no-repeat;
   background-size: cover;

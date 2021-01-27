@@ -1,6 +1,4 @@
-@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
-
 
 /*
 	Alpha by HTML5 UP
@@ -1766,6 +1764,7 @@ body.landing #page-wrapper {
 #banner {
   background-attachment: scroll, fixed;
 	background-color: #666;
+<<<<<<< HEAD:access.css
   background-image: url("Images/Banner-img.jpeg"), url("../../Images/Banner-img.jpeg");
   background-position: center top ;
   background-repeat: repeat, no-repeat;
@@ -1777,6 +1776,9 @@ body.landing #page-wrapper {
   background-attachment: scroll, fixed;
 	background-color: #666;
   background-image: url("Images/corrected_banner.jpeg"), url("../../Images/corrected_banner.jpeg");
+=======
+  background-image: url("Protanopia-veteran/daltonize-p-flag.png"), url("../../Protanopia-veteran/daltonize-p-flag.png");
+>>>>>>> protanopia-correct:prot-veterans.css
   background-position: center top ;
   background-repeat: repeat, no-repeat;
   background-size: cover;
