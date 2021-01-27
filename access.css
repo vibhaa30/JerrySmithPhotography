@@ -1028,6 +1028,13 @@ input[type="radio"]+label:before {
   top: 0.25em;
 }
 
+.image.right img{
+  width: 400px;
+  height: 190px;
+}
+
+
+
 .image.right {
   float: right;
   padding: 0 0 1em 1.5em;
