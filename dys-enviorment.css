@@ -1,13 +1,14 @@
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+/* @import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic"); */
+@font-face {
+font-family: "OpenDyslexic";
+src:
+url("fonts/OpenDyslexic-Italic.otf") format("opentype"),
+url("fonts/OpenDyslexic-Bold.otf") format("opentype"),
+url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 
-/*
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-/* Reset */
-/* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -24,7 +25,7 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  /* vertical-align: baseline; */
 }
 
 article, aside, details, figcaption, figure,
@@ -105,7 +106,7 @@ body {
 
 body, input, select, textarea {
   color: #777;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "OpenDyslexic", sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
@@ -118,8 +119,9 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #252322;
+  color: #A99985;
   text-decoration: none;
+  font-size: 1.1em;
 }
 
 
@@ -143,7 +145,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #646464;
   font-weight: 300;
-  line-height: 1em;
+  line-height: 0.5em;
   margin: 0 0 0.5em 0;
 }
 
@@ -159,13 +161,14 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: 1.6em;
   line-height: 1.5em;
   letter-spacing: -0.025em;
 }
 
 h4 {
   text-align: center;
+  font-size: 1.3em;
   line-height: 1.5em;
   letter-spacing: 0;
 }
@@ -216,7 +219,7 @@ pre {
   background: #F5F1ED;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
-  font-family: monospace;
+  font-family: "OpenDyslexic";
   font-size: 0.9em;
   line-height: 1.75em;
   margin: 0 0 2em 0;
@@ -315,7 +318,12 @@ code {
 }
 
 .row>.col-4 {
-  width: 33.33333%;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
 .row>.off-4 {
@@ -421,20 +429,20 @@ code {
 }
 
 .row.gtr-50 {
-  margin-top: 0;
-  margin-left: -1em;
+  /* margin-top: 0; */
+  /* margin-left: -1em; */
 }
 
 .row.gtr-50>* {
-  padding: 0 0 0 1em;
+  /* padding: 0 0 0 1em; */
 }
 
 .row.gtr-50.gtr-uniform {
-  margin-top: -1em;
+  /* margin-top: -1em; */
 }
 
 .row.gtr-50.gtr-uniform>* {
-  padding-top: 1em;
+  /* padding-top: 1em; */
 }
 
 .row {
@@ -964,8 +972,6 @@ input[type="radio"]+label:before {
   font-family: 'Font Awesome 5 Brands';
 }
 
-
-
 .icon.major {
   background: #666;
   border-radius: 100%;
@@ -1034,14 +1040,21 @@ input[type="radio"]+label:before {
 
 .image.fit {
   display: block;
-  margin: 0 0 2em 2em width: 100%;
+  /* margin: 0em 2em 0em 0.5em; */
+  width: 100%;
+  -ms-flex: 25%;
+  flex: 25%;
+  padding: 0 4px;
 }
 
 .image.fit img {
   display: block;
-  width: 100%;
+  width: 95%;
 	transition: .5s ease;
   backface-visibility: hidden;
+  margin-top: 8px;
+ vertical-align: middle;
+ width: 100%;
 }
 
 .bottom {
@@ -1065,10 +1078,6 @@ input[type="radio"]+label:before {
 
 .text {
 	color: black;
-  background-color: white;
-  margin-left: -18%;
-  margin-right: -18%;
-  padding: .3em;
 }
 
 
@@ -1708,9 +1717,9 @@ body.landing #page-wrapper {
   margin: 0;
 }
 
-/*.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #999;
-}*/
+}
 
 .dropdown-content {
   display: none;
@@ -1731,23 +1740,14 @@ body.landing #page-wrapper {
   text-align: left;
 }
 
-#hover-environ a:hover {
-  opacity: 98%;
-}
-
-#hover-veterans a:hover {
-  opacity: 98%;
-}
-
-#hover-blm a:hover {
+.dropdown-content a:hover {
   opacity: 98%;
 }
 
 .dropdown:hover .dropdown-content {
   display: grid;
 }
-/*
-.dropotron {
+/* .dropotron {
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.065), inset 0 -1px 0 0 #fff, inset 0 0 0 1px rgba(229, 229, 229, 0.5);
@@ -1805,15 +1805,15 @@ body.landing #page-wrapper {
   top: -0.375em;
   width: 0.75em;
   z-index: 0;
-}
-*/
+} */
+
 /* Banner */
 #banner {
   background-attachment: scroll, fixed;
 	background-color: #666;
-  background-image: url("Images/Banner-img.jpeg"), url("../../Images/Banner-img.jpeg");
-  background-position: center top ;
-  background-repeat: repeat, no-repeat;
+  background-image: url("Images/trees.png"), url("../../Images/trees.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   padding: 12em 0 20em 0;
   text-align: center;
@@ -2098,8 +2098,9 @@ body.landing #main {
   }
 
 	.box.top {
-		margin-top: 0em;
-	}
+    margin-top: -9em;
+    text-align: center;
+    padding: 2em;	}
 
   .box.features>section {
     padding: 3em 2em;
