@@ -1904,6 +1904,10 @@ body.landing #main {
 }
 
 /* Footer */
+#doc {
+  font-size: 1.175em;
+  padding: 3px;
+}
 #footer {
   background: #f0f0f0;
   padding: 4em 0 6em 0;
