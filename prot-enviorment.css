@@ -111,7 +111,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #A99985;
+  color: #252322;
   text-decoration: none;
 }
 
@@ -1893,6 +1893,10 @@ body.landing #main {
 }
 
 /* Footer */
+#doc {
+  font-size: 1.175em;
+  padding: 3px;
+}
 #footer {
   background: #f0f0f0;
   padding: 4em 0 6em 0;
@@ -1912,7 +1916,7 @@ body.landing #main {
 }
 
 #footer .copyright {
-  color: #999;
+  color: #000;
   font-size: 0.9em;
   line-height: 1em;
   margin: 2em 0 0 0;
