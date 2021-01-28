@@ -144,9 +144,9 @@ html, body, div, span, applet, object,
 		margin: 0 0 2em 0;
 	}
 
-	#environText {
-		line-height: 1.45;
-	}
+	/* #environText {
+		line-height: 1.7;
+	} */
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #646464;
@@ -2489,7 +2489,7 @@ html, body, div, span, applet, object,
 		  backface-visibility: hidden;
 		}
 		#forPadding {
-			padding-bottom: 3em;
+			padding-bottom: 1.5em;
 		}
 
 		.contain :hover{
