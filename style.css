@@ -1031,7 +1031,7 @@ input[type="radio"]+label:before {
   padding: 0 0 1em 1.5em;
   top: 0.25em;
 }
-.image.right img {
+#bio-pic img {
   width: 13em;
   height: 23em;
   padding-bottom: 2em;
