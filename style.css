@@ -77,6 +77,10 @@ input, select, textarea {
 }
 
 /* Basic */
+.mobile {
+  display: none;
+
+}
 @-ms-viewport {
   width: device-width;
 }
@@ -2082,6 +2086,10 @@ body.landing #main {
 }
 
 @media screen and (max-width: 840px) {
+
+.mobile {
+  display: block;
+}
   * {
   margin:0px;
   padding:0px;
