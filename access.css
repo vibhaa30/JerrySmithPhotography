@@ -1777,7 +1777,6 @@ body.landing #page-wrapper {
 #banner {
   background-attachment: scroll, fixed;
 	background-color: #666;
-<<<<<<< HEAD:access.css
   background-image: url("Images/Banner-img.jpeg"), url("../../Images/Banner-img.jpeg");
   background-position: center top ;
   background-repeat: repeat, no-repeat;
@@ -1789,9 +1788,6 @@ body.landing #page-wrapper {
   background-attachment: scroll, fixed;
 	background-color: #666;
   background-image: url("Images/corrected_banner.jpeg"), url("../../Images/corrected_banner.jpeg");
-=======
-  background-image: url("Protanopia-veteran/daltonize-p-flag.png"), url("../../Protanopia-veteran/daltonize-p-flag.png");
->>>>>>> protanopia-correct:prot-veterans.css
   background-position: center top ;
   background-repeat: repeat, no-repeat;
   background-size: cover;
@@ -2443,6 +2439,21 @@ body.landing #main {
     font-size: 11pt;
   }
 
+  h3 {
+    font-size: 1.3em;
+  }
+
+  br {
+    display: block;
+    line-height: 0px;
+    margin-bottom: 0px;
+    font-size:0px;
+  }
+
+  .major {
+    font-size: 0.8em;
+  }
+
   /* Section/Article */
   header.major {
     padding: 0;
@@ -2450,7 +2461,7 @@ body.landing #main {
 
   /* List */
   ul.actions {
-    margin: 0 0 2em 0;
+    margin: 2em 0 0 0;
   }
 
   ul.actions li {
@@ -2481,6 +2492,14 @@ body.landing #main {
     padding-top: 0;
   }
 
+  #sidebar .toggle-btn span {
+    display:block;
+    width:24px;
+    height:4px;
+    background:#151719;
+    margin:5px 0px;
+    cursor:pointer;
+  }
   /* Box */
   .box {
     border-radius: 6px;
@@ -2514,11 +2533,15 @@ body.landing #main {
     margin-top: 3em;
   }
 
-	#portfolio {
-		margin-left: 105%;
-		margin-right: 105%;
-		font-size: 10px;
-	}
+  .box #bottom-pad{
+    padding-bottom: 0.7em;
+  }
+
+  #portfolio {
+    margin-left: 105%;
+    margin-right: 105%;
+    font-size: 10px;
+  }
   /* Banner */
   #banner {
     padding: 5em 3em 4em 3em;
@@ -2536,6 +2559,7 @@ body.landing #main {
     height: 150px;
 
   }
+
   /* Main */
   #main>.box:first-child {
     margin-top: 0;
@@ -2544,5 +2568,29 @@ body.landing #main {
   /* CTA */
   #cta {
     padding: 2.5em 1em 3em 1em;
+  }
+
+/* Image */
+  .image.fit img{
+    height: 100px;
+  }
+
+  .row>.col-6 {
+    width: 100%;
+  }
+
+  #icon-img{
+    width: 25px;
+    height: 25px;
+  }
+
+  /* footer */
+  #footer {
+    padding: 1em 0 2em 0;
+  }
+
+  #footer .copyright {
+    line-height: 0.5em;
+
   }
 }

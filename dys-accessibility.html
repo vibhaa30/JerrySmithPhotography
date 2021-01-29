@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="access.css">
   <link rel="stylesheet" href="dys-aacStyle.css">
+  <script src="sidenav.js"></script>
   <title></title>
 </head>
 
@@ -144,6 +145,43 @@
     <br>
     <a href="#">Back to Top</a>
   </footer>
-</body>
+  <div class="mobile-nav">
 
-</html>
+  </div>
+    <div id="sidebar">
+      <div class="toggle-btn" onclick="toggleSidebar(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="list">
+        <div class="mobile">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li class="dropdown">
+              <a class="dropbtn" href="NewPortfolio.html">Portfolio</a>
+                <!-- <i class="fa fa-caret-down"></i> -->
+              </button>
+              <div class="dropdown-content">
+                <a id="hover-environ" href="enviorment.html">Environmental  Awareness</a>
+                <a id="hover-veterans" href="veterans.html">Appreciating  Veterans</a>
+                <a id="hover-blm" href="blm.html">Black  Lives  Matter</a>
+
+              </div>
+
+            <li><a href="aboutMe.html">About Jerry Smith</a></li>
+            <li><a href="book.html">Book Appointment</a></li>
+            <li><a href="accessibility.html">Accessibility Features</a></li>
+
+          </ul>
+            </div>
+        </div>
+
+      </div>
+
+
+
+  </body>
+
+  </html>
