@@ -3839,6 +3839,15 @@ html, body, div, span, applet, object,
 
 	@media screen and (max-width: 480px) {
 
+		.image img {
+			width: 325px;
+			height: 200px;
+		}
+
+		#forPadding {
+			padding-bottom: 1em;
+		}
+
 		/* Basic */
 
 			html, body {
@@ -3922,6 +3931,7 @@ html, body, div, span, applet, object,
 						margin-bottom: -3em;
 						margin-top: 3em;
 					}
+
 
 		/* Banner */
 
