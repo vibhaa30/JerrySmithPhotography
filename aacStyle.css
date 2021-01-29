@@ -1053,6 +1053,7 @@ input[type="radio"]+label:before {
   backface-visibility: hidden;
 }
 
+
 .bottom {
 	transition: .5s ease;
 	position: absolute;
@@ -1916,6 +1917,10 @@ body.landing #main {
   padding: 4em 0 6em 0;
   text-align: center;
 }
+#icon-img {
+  width: 35px;
+  height: 35px;
+}
 
 #footer .icons a {
   -moz-transition: opacity 0.2s ease-in-out;
@@ -2442,103 +2447,160 @@ body.landing #main {
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
 
-  /* Basic */
-  html, body {
-    min-width: 320px;
-  }
+    /* Basic */
+    html, body {
+      min-width: 320px;
+    }
 
-  body, input, select, textarea {
-    font-size: 11pt;
-  }
+    body, input, select, textarea {
+      font-size: 11pt;
+    }
 
-  /* Section/Article */
-  header.major {
-    padding: 0;
-  }
+    h3 {
+      font-size: 1.3em;
+    }
 
-  /* List */
-  ul.actions {
-    margin: 0 0 2em 0;
-  }
+    br {
+      display: block;
+      line-height: 0px;
+      margin-bottom: 0px;
+      font-size:0px;
+    }
 
-  ul.actions li {
-    display: block;
-    padding: 1em 0 0 0;
-    text-align: center;
-    width: 100%;
-  }
+    .major {
+      font-size: 0.8em;
+    }
 
-  ul.actions li:first-child {
-    padding-top: 0;
-  }
+    /* Section/Article */
+    header.major {
+      padding: 0;
+    }
 
-  ul.actions li>* {
-    width: 100%;
-    margin: 0 !important;
-  }
+    /* List */
+    ul.actions {
+      margin: 2em 0 0 0;
+    }
 
-  ul.actions li>*.icon:before {
-    margin-left: -2em;
-  }
+    ul.actions li {
+      display: block;
+      padding: 1em 0 0 0;
+      text-align: center;
+      width: 100%;
+    }
 
-  ul.actions.small li {
-    padding: 0.5em 0 0 0;
-  }
+    ul.actions li:first-child {
+      padding-top: 0;
+    }
 
-  ul.actions.small li:first-child {
-    padding-top: 0;
-  }
+    ul.actions li>* {
+      width: 100%;
+      margin: 0 !important;
+    }
 
-  /* Box */
-  .box {
-    border-radius: 6px;
-    box-shadow: none;
-    margin: 1em 0 0 0;
-    padding: 3em 1em !important;
-  }
+    ul.actions li>*.icon:before {
+      margin-left: -2em;
+    }
 
-  .box.features .features-row section {
-    margin: 3em 0 0 0 !important;
-    padding: 3em 0 0 0 !important;
-  }
+    ul.actions.small li {
+      padding: 0.5em 0 0 0;
+    }
 
-  .box .image.featured {
-    border-radius: 0;
-    margin-left: -1em;
-    width: calc(100% + 2em);
-  }
+    ul.actions.small li:first-child {
+      padding-top: 0;
+    }
 
-  .box .image.featured img {
-    border-radius: 0 !important;
-  }
+    #sidebar .toggle-btn span {
+      display:block;
+      width:24px;
+      height:4px;
+      background:#151719;
+      margin:5px 0px;
+      cursor:pointer;
+    }
+    /* Box */
+    .box {
+      border-radius: 6px;
+      box-shadow: none;
+      margin: 1em 0 0 0;
+      padding: 3em 1em !important;
+    }
 
-  .box .image.featured:first-child {
-    margin-bottom: 3em;
-    margin-top: -3em;
-  }
+    .box.features .features-row section {
+      margin: 3em 0 0 0 !important;
+      padding: 3em 0 0 0 !important;
+    }
 
-  .box .image.featured:last-child {
-    margin-bottom: -3em;
-    margin-top: 3em;
-  }
+    .box .image.featured {
+      border-radius: 0;
+      margin-left: -1em;
+      width: calc(100% + 2em);
+    }
 
-	#portfolio {
-		margin-left: 105%;
-		margin-right: 105%;
-		font-size: 10px;
-	}
-  /* Banner */
-  #banner {
-    padding: 5em 3em 4em 3em;
-  }
+    .box .image.featured img {
+      border-radius: 0 !important;
+    }
 
-  /* Main */
-  #main>.box:first-child {
-    margin-top: 0;
-  }
+    .box .image.featured:first-child {
+      margin-bottom: 3em;
+      margin-top: -3em;
+    }
 
-  /* CTA */
-  #cta {
-    padding: 2.5em 1em 3em 1em;
-  }
-}
+    .box .image.featured:last-child {
+      margin-bottom: -3em;
+      margin-top: 3em;
+    }
+
+    .box #bottom-pad{
+      padding-bottom: 0.7em;
+    }
+
+  	#portfolio {
+  		margin-left: 105%;
+  		margin-right: 105%;
+  		font-size: 10px;
+  	}
+    /* Banner */
+    #banner {
+      padding: 5em 3em 4em 3em;
+    }
+
+    #banner h2{
+      margin: 0% 14% 0.5em 14%;
+
+      /* 0% 28% 0.5em 28%; */
+    }
+
+    /* Main */
+    #main>.box:first-child {
+      margin-top: 0;
+    }
+
+    /* CTA */
+    #cta {
+      padding: 2.5em 1em 3em 1em;
+    }
+
+  /* Image */
+    .image.fit img{
+      height: 100px;
+    }
+
+    .row>.col-6 {
+      width: 100%;
+    }
+
+    #icon-img{
+      width: 25px;
+      height: 25px;
+    }
+
+
+    /* footer */
+    #footer {
+      padding: 1em 0 2em 0;
+    }
+
+    #footer .copyright {
+      line-height: 0.5em;
+
+    }
