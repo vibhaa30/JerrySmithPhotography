@@ -2098,7 +2098,7 @@ body.landing #main {
 }
 
 #sidebar ul {
-  list-style-type: none
+  list-style-type: none;
 }
 
 #sidebar a {
@@ -2657,6 +2657,7 @@ body.landing #main {
     width: 25px;
     height: 25px;
   }
+  
 
   /* footer */
   #footer {
@@ -2667,4 +2668,3 @@ body.landing #main {
     line-height: 0.5em;
 
   }
-}
