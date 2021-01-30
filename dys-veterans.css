@@ -128,7 +128,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #A99985;
+  color: #252322;
   text-decoration: none;
 }
 
@@ -220,6 +220,7 @@ blockquote {
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em;
 }
+
 
 pre {
   -webkit-overflow-scrolling: touch;
@@ -1036,6 +1037,11 @@ input[type="radio"]+label:before {
 .image img {
   border-radius: 6px;
   display: block;
+}
+
+#icon-img{
+  width: 25px;
+  height: 25px;
 }
 
 .image.left {
@@ -1940,6 +1946,10 @@ body.landing #main {
   padding: 4em 0 6em 0;
   text-align: center;
 }
+#icon-img{
+  width: 35px;
+  height: 35px;
+}
 
 #footer .icons a {
   -moz-transition: opacity 0.2s ease-in-out;
@@ -2099,6 +2109,61 @@ body.landing #main {
 }
 
 @media screen and (max-width: 840px) {
+  .mobile {
+    display: block;
+  }
+    * {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+  }
+
+  #sidebar ul {
+    list-style-type: none;
+  }
+
+  #sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #444;
+  }
+
+  #sidebar {
+    position:absolute;
+    top:0px;
+    left:-200px;
+    width:200px;
+    height:100%;
+    background:#151719;
+    transition:all 300ms linear;
+  }
+  #sidebar.active {
+    left:0px;
+  }
+  #sidebar .toggle-btn {
+    position:absolute;
+    left:220px;
+    top:10px;
+  }
+  #sidebar .toggle-btn span {
+    display:block;
+    width:30px;
+    height:5px;
+    background:#151719;
+    margin:5px 0px;
+    cursor:pointer;
+  }
+  #sidebar div.list div.item {
+    padding:15px 10px;
+    border-bottom:1px solid #444;
+    color:#fcfcfc;
+    text-transform:uppercase;
+    font-size:15px;
+  }
 
   /* Basic */
   html, body {
@@ -2779,19 +2844,19 @@ blockquote {
   padding: 0.5em 0 0.5em 2em;
 }
 
+
 pre {
   -webkit-overflow-scrolling: touch;
   background: #F5F1ED;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
-  font-family: monospace;
+  font-family: "OpenDyslexic";
   font-size: 0.9em;
   line-height: 1.75em;
   margin: 0 0 2em 0;
   overflow-x: auto;
   padding: 1em 1.5em;
 }
-
 code {
   background: #F5F1ED;
   border-radius: 6px;
@@ -4342,30 +4407,7 @@ body.landing #page-wrapper {
 }
 
 /* Banner */
-#banner {
-  background-attachment: scroll, fixed;
-	background-color: #666;
-<<<<<<< HEAD:access.css
-  background-image: url("Images/Banner-img.jpeg"), url("../../Images/Banner-img.jpeg");
-  background-position: center top ;
-  background-repeat: repeat, no-repeat;
-  background-size: cover;
-  padding: 12em 0 20em 0;
-  text-align: center;
-}
-#corrected-banner {
-  background-attachment: scroll, fixed;
-	background-color: #666;
-  background-image: url("Images/corrected_banner.jpeg"), url("../../Images/corrected_banner.jpeg");
-=======
-  background-image: url("Protanopia-veteran/daltonize-p-flag.png"), url("../../Protanopia-veteran/daltonize-p-flag.png");
->>>>>>> protanopia-correct:prot-veterans.css
-  background-position: center top ;
-  background-repeat: repeat, no-repeat;
-  background-size: cover;
-  padding: 12em 0 20em 0;
-  text-align: center;
-}
+
 
 #banner :last-child {
   margin-bottom: 0;
@@ -4998,160 +5040,160 @@ body.landing #main {
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
 
-  /* Basic */
-  html, body {
-    min-width: 320px;
-  }
 
-  body, input, select, textarea {
-    font-size: 11pt;
-  }
+    /* Basic */
+    html, body {
+      min-width: 320px;
+    }
 
-  h3 {
-    font-size: 1.3em;
-  }
+    body, input, select, textarea {
+      font-size: 11pt;
+    }
 
-  br {
-    display: block;
-    line-height: 0px;
-    margin-bottom: 0px;
-    font-size:0px;
-  }
+    h3 {
+      font-size: 1.3em;
+    }
 
-  .major {
-    font-size: 0.8em;
-  }
+    br {
+      display: block;
+      line-height: 0px;
+      margin-bottom: 0px;
+      font-size:0px;
+    }
 
-  /* Section/Article */
-  header.major {
-    padding: 0;
-  }
+    .major {
+      font-size: 0.8em;
+    }
 
-  /* List */
-  ul.actions {
-    margin: 2em 0 0 0;
-  }
+    /* Section/Article */
+    header.major {
+      padding: 0;
+    }
 
-  ul.actions li {
-    display: block;
-    padding: 1em 0 0 0;
-    text-align: center;
-    width: 100%;
-  }
+    /* List */
+    ul.actions {
+      margin: 2em 0 0 0;
+    }
 
-  ul.actions li:first-child {
-    padding-top: 0;
-  }
+    ul.actions li {
+      display: block;
+      padding: 1em 0 0 0;
+      text-align: center;
+      width: 100%;
+    }
 
-  ul.actions li>* {
-    width: 100%;
-    margin: 0 !important;
-  }
+    ul.actions li:first-child {
+      padding-top: 0;
+    }
 
-  ul.actions li>*.icon:before {
-    margin-left: -2em;
-  }
+    ul.actions li>* {
+      width: 100%;
+      margin: 0 !important;
+    }
 
-  ul.actions.small li {
-    padding: 0.5em 0 0 0;
-  }
+    ul.actions li>*.icon:before {
+      margin-left: -2em;
+    }
 
-  ul.actions.small li:first-child {
-    padding-top: 0;
-  }
+    ul.actions.small li {
+      padding: 0.5em 0 0 0;
+    }
 
-  #sidebar .toggle-btn span {
-    display:block;
-    width:24px;
-    height:4px;
-    background:#151719;
-    margin:5px 0px;
-    cursor:pointer;
-  }
-  /* Box */
-  .box {
-    border-radius: 6px;
-    box-shadow: none;
-    margin: 1em 0 0 0;
-    padding: 3em 1em !important;
-  }
+    ul.actions.small li:first-child {
+      padding-top: 0;
+    }
 
-  .box.features .features-row section {
-    margin: 3em 0 0 0 !important;
-    padding: 3em 0 0 0 !important;
-  }
+    #sidebar .toggle-btn span {
+      display:block;
+      width:24px;
+      height:4px;
+      background:#151719;
+      margin:5px 0px;
+      cursor:pointer;
+    }
+    /* Box */
+    .box {
+      border-radius: 6px;
+      box-shadow: none;
+      margin: 1em 0 0 0;
+      padding: 3em 1em !important;
+    }
 
-  .box .image.featured {
-    border-radius: 0;
-    margin-left: -1em;
-    width: calc(100% + 2em);
-  }
+    .box.features .features-row section {
+      margin: 3em 0 0 0 !important;
+      padding: 3em 0 0 0 !important;
+    }
 
-  .box .image.featured img {
-    border-radius: 0 !important;
-  }
+    .box .image.featured {
+      border-radius: 0;
+      margin-left: -1em;
+      width: calc(100% + 2em);
+    }
 
-  .box .image.featured:first-child {
-    margin-bottom: 3em;
-    margin-top: -3em;
-  }
+    .box .image.featured img {
+      border-radius: 0 !important;
+    }
 
-  .box .image.featured:last-child {
-    margin-bottom: -3em;
-    margin-top: 3em;
-  }
+    .box .image.featured:first-child {
+      margin-bottom: 3em;
+      margin-top: -3em;
+    }
 
-  .box #bottom-pad{
-    padding-bottom: 0.7em;
-  }
+    .box .image.featured:last-child {
+      margin-bottom: -3em;
+      margin-top: 3em;
+    }
 
-  #portfolio {
-    margin-left: 105%;
-    margin-right: 105%;
-    font-size: 10px;
-  }
-  /* Banner */
-  #banner {
-    padding: 5em 3em 4em 3em;
-  }
+    .box #bottom-pad{
+      padding-bottom: 0.7em;
+    }
 
-  #banner h2{
-    margin: 0% 14% 0.5em 14%;
+  	#portfolio {
+  		margin-left: 105%;
+  		margin-right: 105%;
+  		font-size: 10px;
+  	}
+    /* Banner */
+    #banner {
+      padding: 5em 3em 4em 3em;
+    }
 
-    /* 0% 28% 0.5em 28%; */
-  }
+    #banner h2{
+      margin: 0% 2% 0.5em 2%;
 
-  /* Main */
-  #main>.box:first-child {
-    margin-top: 0;
-  }
+      /* 0% 28% 0.5em 28%; */
+    }
 
-  /* CTA */
-  #cta {
-    padding: 2.5em 1em 3em 1em;
-  }
+    /* Main */
+    #main>.box:first-child {
+      margin-top: 0;
+    }
 
-/* Image */
-  .image.fit img{
-    height: 100px;
-  }
+    /* CTA */
+    #cta {
+      padding: 2.5em 1em 3em 1em;
+    }
 
-  .row>.col-6 {
-    width: 100%;
-  }
+  /* Image */
+    .image.fit img{
+      height: 100px;
+    }
 
-  #icon-img{
-    width: 25px;
-    height: 25px;
-  }
+    .row>.col-6 {
+      width: 100%;
+    }
 
-  /* footer */
-  #footer {
-    padding: 1em 0 2em 0;
-  }
+    #icon-img{
+      width: 25px;
+      height: 25px;
+    }
 
-  #footer .copyright {
-    line-height: 0.5em;
+    /* footer */
+    #footer {
+      padding: 1em 0 2em 0;
+    }
 
-  }
-}
+    #footer .copyright {
+      line-height: 0.5em;
+
+    }
