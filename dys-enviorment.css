@@ -64,6 +64,10 @@ body {
   -webkit-text-size-adjust: none;
 }
 
+.mobile {
+  display: none;
+}
+
 mark {
   background-color: transparent;
   color: inherit;
