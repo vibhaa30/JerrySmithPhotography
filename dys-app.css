@@ -77,7 +77,10 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 	}
 
 /* Basic */
+.mobile {
+	display: none;
 
+}
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -1993,7 +1996,9 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 		}
 
 		@media screen and (max-width: 840px) {
-
+			.mobile {
+			  display: block;
+			}
 			.container {
 				width: 100% !important;
 			}
@@ -3506,6 +3511,11 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
   text-align: center;
 }
 
+#icon-img {
+  width: 35px;
+  height: 35px;
+}
+
 #footer .icons a {
   -moz-transition: opacity 0.2s ease-in-out;
   -webkit-transition: opacity 0.2s ease-in-out;
@@ -3676,7 +3686,61 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 	}
 
 	@media screen and (max-width: 840px) {
+		.mobile {
+		  display: block;
+		}
+		* {
+	  margin:0px;
+	  padding:0px;
+	  box-sizing:border-box;
+	  font-family:sans-serif;
+	}
 
+	#sidebar ul {
+	  list-style-type: none;
+	}
+
+	#sidebar a {
+	  color: #fff;
+	  text-decoration: none;
+	  font-size: 20px;
+	  line-height: 50px;
+	  padding-bottom: 17px;
+	  border-bottom: 1px solid #444;
+	}
+
+	#sidebar {
+	  position:absolute;
+	  top:0px;
+	  left:-200px;
+	  width:200px;
+	  height:100%;
+	  background:#151719;
+	  transition:all 300ms linear;
+	}
+	#sidebar.active {
+	  left:0px;
+	}
+	#sidebar .toggle-btn {
+	  position:absolute;
+	  left:220px;
+	  top:10px;
+	}
+	#sidebar .toggle-btn span {
+	  display:block;
+	  width:30px;
+	  height:5px;
+	  background:#151719;
+	  margin:5px 0px;
+	  cursor:pointer;
+	}
+	#sidebar div.list div.item {
+	  padding:15px 10px;
+	  border-bottom:1px solid #444;
+	  color:#fcfcfc;
+	  text-transform:uppercase;
+	  font-size:15px;
+	}
 		/* Basic */
 
 			html, body {
@@ -4189,7 +4253,7 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 	  #footer {
 	    padding: 1em 0 2em 0;
 	  }
-	
+
 	  #footer .copyright {
 	    line-height: 0.5em;
 
