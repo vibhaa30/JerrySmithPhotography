@@ -2097,6 +2097,7 @@ body.landing #main {
   font-family:sans-serif;
 }
 
+
 #sidebar ul {
   list-style-type: none;
 }
@@ -2657,7 +2658,7 @@ body.landing #main {
     width: 25px;
     height: 25px;
   }
-  
+
 
   /* footer */
   #footer {
