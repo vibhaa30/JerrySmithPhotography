@@ -2819,7 +2819,7 @@ body.landing #main {
 
   /* Image */
     .image.fit img{
-      height: 100px;
+      height: auto;
     }
 
     .row>.col-6 {
