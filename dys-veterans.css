@@ -10,6 +10,7 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 
 }
 
+
 /*
 	Alpha by HTML5 UP
 	html5up.net | @ajlkn
@@ -45,7 +46,6 @@ body {
   line-height: 1;
   color: ;
 }
-
 .mobile {
   display: none;
 }
@@ -118,7 +118,7 @@ body {
 
 body, input, select, textarea {
   color: #777;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "OpenDyslexic", sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
@@ -224,12 +224,13 @@ blockquote {
   padding: 0.5em 0 0.5em 2em;
 }
 
+
 pre {
   -webkit-overflow-scrolling: touch;
   background: #F5F1ED;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
-  font-family: monospace;
+  font-family: "OpenDyslexic";
   font-size: 0.9em;
   line-height: 1.75em;
   margin: 0 0 2em 0;
@@ -2767,7 +2768,7 @@ body {
 
 body, input, select, textarea {
   color: #777;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "OpenDyslexic", sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
@@ -2873,19 +2874,19 @@ blockquote {
   padding: 0.5em 0 0.5em 2em;
 }
 
+
 pre {
   -webkit-overflow-scrolling: touch;
   background: #F5F1ED;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
-  font-family: monospace;
+  font-family: "OpenDyslexic";
   font-size: 0.9em;
   line-height: 1.75em;
   margin: 0 0 2em 0;
   overflow-x: auto;
   padding: 1em 1.5em;
 }
-
 code {
   background: #F5F1ED;
   border-radius: 6px;
@@ -4703,9 +4704,6 @@ body.landing #main {
 
 @media screen and (max-width: 840px) {
 
-  .mobile {
-    display: block;
-  }
   /* Basic */
   html, body {
     overflow-x: hidden;
@@ -5100,6 +5098,7 @@ body.landing #main {
 
   }
 
+
     /* Basic */
     html, body {
       min-width: 320px;
@@ -5218,7 +5217,7 @@ body.landing #main {
     }
 
     #banner h2{
-      margin: 0% 14% 0.5em 14%;
+      margin: 0% 2% 0.5em 2%;
 
       /* 0% 28% 0.5em 28%; */
     }
