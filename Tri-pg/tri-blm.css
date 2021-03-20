@@ -90,7 +90,9 @@ body {
     min-width: 320px;
   }
 }
-
+.mobile {
+  display: none;
+}
 html {
   box-sizing: border-box;
 }
