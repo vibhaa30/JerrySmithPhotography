@@ -1067,7 +1067,34 @@ input[type="radio"]+label:before {
 	transition: .5s ease;
   backface-visibility: hidden;
 }
+#img-1 {
+  height: 23em;
+}
+#img-2 {
+  height: 26em;
+}
+#img-3 {
+  height: 20em;
+}
+#img-4 {
+  height: 27em;
+}
 
+#img-5 {
+  height: 24em;
+}
+#img-6 {
+  height: 29em;
+
+}
+#img-7 {
+  height: 23em;
+
+}
+#img-8 {
+  height: 20em;
+
+}
 .bottom {
 	transition: .5s ease;
 	position: absolute;
@@ -5035,7 +5062,34 @@ body.landing #main {
 
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
+  #img-1 {
+    height: 11em;
+  }
+  #img-2 {
+    height: 13em;
+  }
+  #img-3 {
+    height: 10em;
+  }
+  #img-4 {
+    height: 11em;
+  }
 
+  #img-5 {
+    height: 12em;
+  }
+  #img-6 {
+    height: 15em;
+
+  }
+  #img-7 {
+    height: 10em;
+
+  }
+  #img-8 {
+    height: 8em;
+
+  }
 
     /* Basic */
     html, body {
