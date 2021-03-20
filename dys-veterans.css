@@ -10,7 +10,6 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 
 }
 
-
 /*
 	Alpha by HTML5 UP
 	html5up.net | @ajlkn
@@ -46,6 +45,7 @@ body {
   line-height: 1;
   color: ;
 }
+
 .mobile {
   display: none;
 }
@@ -118,7 +118,7 @@ body {
 
 body, input, select, textarea {
   color: #777;
-  font-family: "OpenDyslexic", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
@@ -224,13 +224,12 @@ blockquote {
   padding: 0.5em 0 0.5em 2em;
 }
 
-
 pre {
   -webkit-overflow-scrolling: touch;
   background: #F5F1ED;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
-  font-family: "OpenDyslexic";
+  font-family: monospace;
   font-size: 0.9em;
   line-height: 1.75em;
   margin: 0 0 2em 0;
@@ -1077,7 +1076,34 @@ input[type="radio"]+label:before {
 	transition: .5s ease;
   backface-visibility: hidden;
 }
+#img-1 {
+  height: 23em;
+}
+#img-2 {
+  height: 26em;
+}
+#img-3 {
+  height: 20em;
+}
+#img-4 {
+  height: 27em;
+}
 
+#img-5 {
+  height: 24em;
+}
+#img-6 {
+  height: 29em;
+
+}
+#img-7 {
+  height: 23em;
+
+}
+#img-8 {
+  height: 20em;
+
+}
 .bottom {
 	transition: .5s ease;
 	position: absolute;
@@ -2741,7 +2767,7 @@ body {
 
 body, input, select, textarea {
   color: #777;
-  font-family: "OpenDyslexic", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16pt;
   font-weight: 300;
   line-height: 1.65em;
@@ -2847,19 +2873,19 @@ blockquote {
   padding: 0.5em 0 0.5em 2em;
 }
 
-
 pre {
   -webkit-overflow-scrolling: touch;
   background: #F5F1ED;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
-  font-family: "OpenDyslexic";
+  font-family: monospace;
   font-size: 0.9em;
   line-height: 1.75em;
   margin: 0 0 2em 0;
   overflow-x: auto;
   padding: 1em 1.5em;
 }
+
 code {
   background: #F5F1ED;
   border-radius: 6px;
@@ -4677,6 +4703,9 @@ body.landing #main {
 
 @media screen and (max-width: 840px) {
 
+  .mobile {
+    display: block;
+  }
   /* Basic */
   html, body {
     overflow-x: hidden;
@@ -5042,7 +5071,34 @@ body.landing #main {
 
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
+  #img-1 {
+    height: 11em;
+  }
+  #img-2 {
+    height: 13em;
+  }
+  #img-3 {
+    height: 10em;
+  }
+  #img-4 {
+    height: 11em;
+  }
 
+  #img-5 {
+    height: 12em;
+  }
+  #img-6 {
+    height: 15em;
+
+  }
+  #img-7 {
+    height: 10em;
+
+  }
+  #img-8 {
+    height: 8em;
+
+  }
 
     /* Basic */
     html, body {
@@ -5162,7 +5218,7 @@ body.landing #main {
     }
 
     #banner h2{
-      margin: 0% 2% 0.5em 2%;
+      margin: 0% 14% 0.5em 14%;
 
       /* 0% 28% 0.5em 28%; */
     }
