@@ -439,21 +439,22 @@ code {
 }
 
 .row.gtr-50 {
-  /* margin-top: 0; */
-  /* margin-left: -1em; */
+  margin-top: 0;
+  margin-left: -1em;
 }
 
 .row.gtr-50>* {
-  /* padding: 0 0 0 1em; */
+  padding: 0 0 0 1em;
 }
 
 .row.gtr-50.gtr-uniform {
-  /* margin-top: -1em; */
+  margin-top: -1em;
 }
 
 .row.gtr-50.gtr-uniform>* {
-  /* padding-top: 1em; */
+  padding-top: 1em;
 }
+
 
 .row {
   margin-top: 0;
@@ -2818,9 +2819,6 @@ body.landing #main {
     }
 
   /* Image */
-    .image.fit img{
-      height: auto;
-    }
 
     .row>.col-6 {
       width: 100%;
