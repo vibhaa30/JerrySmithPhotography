@@ -5165,9 +5165,6 @@ body.landing #main {
     }
 
   /* Image */
-    .image.fit img{
-      height: 100px;
-    }
 
     .row>.col-6 {
       width: 100%;
