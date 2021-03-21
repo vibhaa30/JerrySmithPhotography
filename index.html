@@ -56,31 +56,47 @@
           <div class="col-4">
             <div class="contain">
               <span class="image fit" id="blm">
-                <img src="Images/blm.jpg" alt="" />
+                <img src="Images/blm.jpg" alt="" onclick="enlargeImg()"
+                 id="img1" />
+                 <br><br><br>
+                 <button onclick="resetImg()">Reset</button>
+                        </span>
                 <div class="bottom">
                   <p class=text> <a href="blm.html">Black Lives Matter</a></p>
                 </div>
-              </span>
+                <!-- Button to reset the Image size -->
+
             </div>
           </div>
           <div class="col-4">
             <div class="contain">
               <span class="image fit" id="veterans">
-                <img src="https://images.pexels.com/photos/54098/us-army-soldiers-army-men-54098.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                <img src="https://images.pexels.com/photos/54098/us-army-soldiers-army-men-54098.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" onclick="enlargeImg()"
+                 id="img1" />
+                 <br><br><br>
+
+                 <!-- Button to reset the Image size -->
+        <button onclick="resetImg()">Reset</button>
                 <div class="bottom">
                   <p class="text"> <a href="veterans.html"> Appreciating Veterans </a></p>
                 </div>
+                <!-- Button to reset the Image size -->
+       <button onclick="resetImg()">Reset</button>
               </span>
             </div>
           </div>
           <div class="col-4">
             <div class="contain">
               <span class="image fit" id="environ">
-                <img src="Images/env-img.jpeg" alt="" />
+                <img src="Images/env-img.jpeg" alt="" onclick="enlargeImg()"
+                 id="img1" />
+                 <br><br><br>
+                 <button onclick="resetImg()">Reset</button>
+                        </span>
                 <div class="bottom">
                   <p class="text"> <a href="enviorment.html"> Environmental Awareness </a> </p>
                 </div>
-              </span>
+                <!-- Button to reset the Image size -->
             </div>
           </div>
         </div>
@@ -89,6 +105,8 @@
         </ul>
       </div>
     </section>
+
+
 
     <section class="box">
       <h3>About Jerry Smith</h2>
@@ -125,6 +143,7 @@
       </div>
     </div>
   </section>
+
 
   <footer id="footer">
     <ul class="icons">
@@ -185,21 +204,31 @@
               <a id="hover-environ" href="enviorment.html">Environmental Awareness</a>
               <a id="hover-veterans" href="veterans.html">Appreciating Veterans</a>
               <a id="hover-blm" href="blm.html">Black Lives Matter</a>
-
             </div>
-
           <li><a href="aboutMe.html">About Jerry Smith</a></li>
           <li><a href="book.html">Book Appointment</a></li>
           <li><a href="accessibility.html">Accessibility Features</a></li>
-
         </ul>
       </div>
     </div>
-
   </div>
-
-
-
+  <script>
+    // Get the img object using its Id
+    img = document.getElementById("img1");
+    // Function to increase image size
+    function enlargeImg() {
+      // Set image size to 1.5 times original
+      img.style.transform = "scale(3)";
+      // Animation effect
+      img.style.transition = "transform 0.25s ease";
+    }
+    // Function to reset image size
+    function resetImg() {
+      // Set image size to original
+      img.style.transform = "scale(1)";
+      img.style.transition = "transform 0.25s ease";
+    }
+  </script>
 </body>
 
 </html>
