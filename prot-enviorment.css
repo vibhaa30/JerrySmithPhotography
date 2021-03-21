@@ -446,6 +446,7 @@ code {
   padding-top: 1em;
 }
 
+
 .row {
   margin-top: 0;
   margin-left: -2em;
@@ -5169,9 +5170,6 @@ body.landing #main {
     }
 
   /* Image */
-    .image.fit img{
-      height: 100px;
-    }
 
     .row>.col-6 {
       width: 100%;
