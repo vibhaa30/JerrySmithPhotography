@@ -86,12 +86,12 @@
             </div>
           </div>
           <div class="col-4">
-            <div class="contain">
-              <span class="image fit" id="environ">
+            <div class="contain"onclick="myFunction()">
+              <span class="image fit" id="environ" >
                 <img src="Images/env-img.jpeg" alt="" onclick="enlargeImg()"
                  id="img1" />
                  <br><br><br>
-                 <button onclick="resetImg()">Reset</button>
+                 <!-- <button onclick="resetImg()">Reset</button> -->
                         </span>
                 <div class="bottom">
                   <p class="text"> <a href="enviorment.html"> Environmental Awareness </a> </p>
@@ -228,6 +228,10 @@
       img.style.transform = "scale(1)";
       img.style.transition = "transform 0.25s ease";
     }
+    function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
   </script>
 </body>
 
