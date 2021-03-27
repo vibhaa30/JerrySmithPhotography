@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+}
 body {
   line-height: 1;
   color: ;
@@ -429,7 +430,7 @@ code {
 }
 
 .row.gtr-50>* {
-  padding: 0 0 0 1em; 
+  padding: 0 0 0 1em;
 }
 
 .row.gtr-50.gtr-uniform {
@@ -1054,6 +1055,12 @@ input[type="radio"]+label:before {
   margin-top: 8px;
  vertical-align: middle;
  width: 100%;
+}
+
+.zoom:hover {
+  transform: scale(1.17);
+  position: relative;
+  z-index: 1111;
 }
 
 .bottom {
