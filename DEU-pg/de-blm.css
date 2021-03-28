@@ -1066,7 +1066,16 @@ input[type="radio"]+label:before {
 	transition: .5s ease;
   backface-visibility: hidden;
 }
-
+.zoom-left:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1111;
+}
+.zoom-right:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1111;
+}
 .bottom {
 	transition: .5s ease;
 	position: absolute;
@@ -2523,7 +2532,18 @@ body.landing #main {
 
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
-
+  .zoom-left:hover {
+    transform: scale(1.5);
+    margin-left: 50%;
+    position: relative;
+    z-index: 1111;
+  }
+  .zoom-right:hover {
+    transform: scale(1.5);
+    margin-left: -50%;
+    position: relative;
+    z-index: 1111;
+  }
   /* Basic */
   html, body {
     min-width: 320px;
@@ -5032,7 +5052,18 @@ body.landing #main {
 
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
-
+  .zoom-left:hover {
+    transform: scale(1.5);
+    margin-left: 50%;
+    position: relative;
+    z-index: 1111;
+  }
+  .zoom-right:hover {
+    transform: scale(1.5);
+    margin-left: -50%;
+    position: relative;
+    z-index: 1111;
+  }
 
     /* Basic */
     html, body {
