@@ -1581,8 +1581,8 @@ body.landing #page-wrapper {
 }
 
 #header {
-  background-color: #252323;
-	opacity: 89%;
+  background-color: #444444;
+
   color: #000;
   cursor: default;
   height: 3.25em;
@@ -1772,7 +1772,7 @@ body.landing #page-wrapper {
   display: none;
   position: absolute;
   background-color: #999;
-  opacity: 89%;
+
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -2792,7 +2792,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #252322;
+  color: #e89980;
   text-decoration: none;
 }
 
@@ -4225,8 +4225,8 @@ body.landing #page-wrapper {
 }
 
 #header {
-  background-color: #252323;
-	opacity: 89%;
+  background-color: #444444;
+
   color: #000;
   cursor: default;
   height: 3.25em;
