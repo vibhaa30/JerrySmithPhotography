@@ -80,7 +80,10 @@ input, select, textarea {
 @-ms-viewport {
   width: device-width;
 }
+.mobile {
+  display: none;
 
+}
 body {
   -ms-overflow-style: scrollbar;
 }
