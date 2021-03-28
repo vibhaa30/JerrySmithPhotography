@@ -2551,7 +2551,18 @@ body.landing #main {
 
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
-
+  .zoom-left:hover {
+    transform: scale(1.5);
+    margin-left: 50%;
+    position: relative;
+    z-index: 1111;
+  }
+  .zoom-right:hover {
+    transform: scale(1.5);
+    margin-left: -50%;
+    position: relative;
+    z-index: 1111;
+  }
   /* Basic */
   html, body {
     min-width: 320px;
@@ -3718,6 +3729,16 @@ input[type="radio"]+label:before {
   margin-top: 8px;
  vertical-align: middle;
  width: 100%;
+}
+.zoom-left:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1111;
+}
+.zoom-right:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1111;
 }
 
 .bottom {
@@ -5062,6 +5083,18 @@ body.landing #main {
 
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
+  .zoom-left:hover {
+    transform: scale(1.5);
+    margin-left: 50%;
+    position: relative;
+    z-index: 1111;
+  }
+  .zoom-right:hover {
+    transform: scale(1.5);
+    margin-left: -50%;
+    position: relative;
+    z-index: 1111;
+  }
   #img-1 {
     height: 11em;
   }

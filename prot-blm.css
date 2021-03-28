@@ -77,6 +77,10 @@ input, select, textarea {
 }
 
 /* Basic */
+.mobile {
+  display: none;
+
+}
 @-ms-viewport {
   width: device-width;
 }
@@ -100,7 +104,7 @@ html {
 }
 
 body {
-  background: #F5F1ED;
+  background: #f5f5f5;
 }
 
 body, input, select, textarea {
@@ -118,7 +122,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #252322;
+  color: #e89980;
   text-decoration: none;
 }
 
@@ -213,7 +217,7 @@ blockquote {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  background: #F5F1ED;
+  background: #f8f8f8;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
   font-family: monospace;
@@ -1540,8 +1544,7 @@ body.landing #page-wrapper {
 }
 
 #header {
-  background-color: #252323;
-	opacity: 89%;
+  background-color: #444444;
   color: #000;
   cursor: default;
   height: 3.25em;
@@ -2520,7 +2523,18 @@ body.landing #main {
 
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
-
+  .zoom-left:hover {
+    transform: scale(1.5);
+    margin-left: 50%;
+    position: relative;
+    z-index: 1111;
+  }
+  .zoom-right:hover {
+    transform: scale(1.5);
+    margin-left: -50%;
+    position: relative;
+    z-index: 1111;
+  }
   /* Basic */
   html, body {
     min-width: 320px;
@@ -2723,7 +2737,7 @@ html {
 }
 
 body {
-  background: #F5F1ED;
+  background: #f5f5f5;
 }
 
 body, input, select, textarea {
@@ -2741,7 +2755,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #252322;
+  color: #e89980;
   text-decoration: none;
 }
 
@@ -2836,7 +2850,7 @@ blockquote {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  background: #F5F1ED;
+  background: #f8f8f8;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
   font-family: monospace;
@@ -2848,7 +2862,7 @@ pre {
 }
 
 code {
-  background: #F5F1ED;
+  background: #f5f5f5;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
   font-family: monospace;
@@ -3688,7 +3702,16 @@ input[type="radio"]+label:before {
  vertical-align: middle;
  width: 100%;
 }
-
+.zoom-left:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1111;
+}
+.zoom-right:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1111;
+}
 .bottom {
 	transition: .5s ease;
 	position: absolute;
@@ -4165,8 +4188,7 @@ body.landing #page-wrapper {
 }
 
 #header {
-  background-color: #252323;
-	opacity: 89%;
+  background-color: #444444;
   color: #000;
   cursor: default;
   height: 3.25em;

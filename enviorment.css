@@ -1057,8 +1057,14 @@ input[type="radio"]+label:before {
  width: 100%;
 }
 
-.zoom:hover {
-  transform: scale(1.17);
+
+.zoom-left:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 1111;
+}
+.zoom-right:hover {
+  transform: scale(1.2);
   position: relative;
   z-index: 1111;
 }
@@ -2679,6 +2685,18 @@ body.landing #main {
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
 
+  .zoom-left:hover {
+    transform: scale(1.5);
+    margin-left: 50%;
+    position: relative;
+    z-index: 1111;
+  }
+  .zoom-right:hover {
+    transform: scale(1.5);
+    margin-left: -50%;
+    position: relative;
+    z-index: 1111;
+  }
 
   /* Basic */
   html, body {
