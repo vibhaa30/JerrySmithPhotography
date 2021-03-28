@@ -79,7 +79,6 @@ input, select, textarea {
 /* Basic */
 .mobile {
   display: none;
-
 }
 @-ms-viewport {
   width: device-width;
@@ -104,7 +103,7 @@ html {
 }
 
 body {
-  background: #F5F1ED;
+  background: #f5f5f5;
 }
 
 body, input, select, textarea {
@@ -122,7 +121,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #252322;
+  color: #e89980;
   text-decoration: none;
 }
 
@@ -217,7 +216,7 @@ blockquote {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  background: #F5F1ED;
+  background: #f8f8f8;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
   font-family: monospace;
