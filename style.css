@@ -104,7 +104,7 @@ html {
 }
 
 body {
-  background: #F5F1ED;
+  background: #f5f5f5;
 }
 
 body, input, select, textarea {
@@ -122,7 +122,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #252322;
+  color: #444444;
   text-decoration: none;
 }
 
@@ -217,7 +217,7 @@ blockquote {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  background: #F5F1ED;
+  background: #f5f5f5;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
   font-family: monospace;
@@ -229,7 +229,7 @@ pre {
 }
 
 code {
-  background: #F5F1ED;
+  background: #f5f5f5;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
   font-family: monospace;
@@ -643,7 +643,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background-color: #F5F1ED;
+  background-color: #f5f5f5;
   border-radius: 6px;
   border: solid 1px #e5e5e5;
   color: inherit;
@@ -683,7 +683,7 @@ select {
 
 select option {
   color: #777;
-  background-color: #F5F1ED;
+  background-color: #f5f5f5;
 }
 
 select:focus::-ms-value {
@@ -1347,7 +1347,7 @@ input[type="button"],
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: #A67A77;
+  background-color: #E89980;
   border-radius: 6px;
   border: 0;
   color: #ffffff;
@@ -1537,7 +1537,7 @@ body.landing #page-wrapper {
 }
 
 #header {
-  background-color: #252323;
+  background-color: #444444;
 	opacity: 89%;
   color: #bbb;
   cursor: default;
@@ -1841,7 +1841,7 @@ body.landing #page-wrapper {
 }
 
 #banner h2 {
-	background-color: #252322;
+	background-color: #444444;
 	opacity: 75%;
   font-size: 3.5em;
   line-height: 1em;
@@ -2305,7 +2305,7 @@ body.landing #main {
     top: 0;
     width: 275px;
     z-index: 10002;
-    background-color: #252322;
+    background-color: #444444;
     color: #bbb;
   }
 

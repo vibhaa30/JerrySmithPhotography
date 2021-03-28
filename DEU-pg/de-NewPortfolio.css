@@ -53,7 +53,7 @@ html, body, div, span, applet, object,
 	}
 
 	mark {
-		background-color: transparent;
+
 		color: inherit;
 	}
 
@@ -209,7 +209,7 @@ html, body, div, span, applet, object,
 
 	pre {
 	  -webkit-overflow-scrolling: touch;
-	  background: #F5F1ED;
+	  background: #F8f8f8;
 	  border-radius: 6px;
 	  border: solid 1px #e5e5e5;
 	  font-family: monospace;
@@ -2122,7 +2122,7 @@ html, body, div, span, applet, object,
 		}
 
 		select:focus::-ms-value {
-			background-color: transparent;
+
 		}
 
 		select::-ms-expand {
@@ -2777,7 +2777,7 @@ html, body, div, span, applet, object,
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #A67A77;
+		background-color: #E89980;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff;
@@ -2860,9 +2860,8 @@ html, body, div, span, applet, object,
 		input[type="reset"].alt,
 		input[type="button"].alt,
 		.button.alt {
-			background-color: transparent;
+
 			box-shadow: inset 0 0 0 2px #e5e5e5;
-			color: #777;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2972,8 +2971,8 @@ html, body, div, span, applet, object,
 		}
 	}
 	#header {
-	  background-color: #252323;
-		opacity: 89%;
+	  background-color: #444444;
+		opacity: 100%;
 	  color: #000;
 	  cursor: default;
 	  height: 3.25em;
@@ -3067,7 +3066,7 @@ html, body, div, span, applet, object,
 	#header input[type="reset"],
 	#header input[type="button"],
 	#header .button {
-	  background-color: transparent;
+
 	  box-shadow: inset 0 0 0 2px #999;
 	  color: #fff;
 	}
@@ -3241,7 +3240,7 @@ html, body, div, span, applet, object,
 		#banner input[type="reset"],
 		#banner input[type="button"],
 		#banner .button {
-			background-color: transparent;
+
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
 			color: #fff;
 			min-width: 12em;
