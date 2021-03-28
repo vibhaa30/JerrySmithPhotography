@@ -1042,11 +1042,9 @@ input[type="radio"]+label:before {
 }
 
 .image.right img{
-  width: 400px;
-  height: 190px;
+  width: 530px;
+  height: 200px;
 }
-
-
 
 .image.right {
   float: right;
