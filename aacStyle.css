@@ -1725,7 +1725,7 @@ body.landing #page-wrapper {
   display: none;
   position: absolute;
   background-color: #999;
-  opacity: 89%;
+
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -1837,7 +1837,7 @@ body.landing #page-wrapper {
 }
 
 #banner h2 {
-	background-color: #252322;
+	background-color: #444444;
 	opacity: 75%;
   font-size: 3.5em;
   line-height: 1em;
@@ -2239,7 +2239,7 @@ body.landing #main {
     top: 0;
     width: 275px;
     z-index: 10002;
-    background-color: #252322;
+    background-color: #444444;
     color: #bbb;
   }
 
