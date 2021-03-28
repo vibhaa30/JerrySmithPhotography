@@ -2685,8 +2685,7 @@ body.landing #main {
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
 
-  .zoom-left:hover
-  .zoom-left:active {
+  .zoom-left:hover {
     transform: scale(1.5);
     margin-left: 50%;
     position: relative;
