@@ -1534,8 +1534,7 @@ body.landing #page-wrapper {
 }
 
 #header {
-  background-color: #252323;
-	opacity: 89%;
+  background-color: #444444;
   color: #bbb;
   cursor: default;
   height: 3.25em;
