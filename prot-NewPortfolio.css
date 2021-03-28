@@ -2972,8 +2972,7 @@ html, body, div, span, applet, object,
 		}
 	}
 	#header {
-	  background-color: #252323;
-		opacity: 89%;
+	  background-color: #444444;
 	  color: #000;
 	  cursor: default;
 	  height: 3.25em;
