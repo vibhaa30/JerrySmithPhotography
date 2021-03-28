@@ -1243,8 +1243,8 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 	}
 
 	#header {
-		background: #252322;
-		opacity: 89%;
+		background: #444444;
+
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -1742,7 +1742,7 @@ url("fonts/OpenDyslexic-BoldItalic.otf") format("opentype");
 				overflow-x: hidden;
 			}
 
-			body, input, select, textarea {
+		 select, textarea {
 				font-size: 11pt;
 			}
 
